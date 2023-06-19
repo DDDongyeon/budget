@@ -1,0 +1,522 @@
+@charset "UTF-8";
+
+
+body {
+	width: 375px;
+	height: 812px;
+}
+/* 소비 등록 */
+.container{
+position: relative;
+width: 375px;
+height: 812px;
+bottom: 1%;
+    right: 2%;
+background: #F9F9F9;
+}
+
+
+
+/* Rectangle 17 */
+.top-rectangle{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 88.18%;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Vector */
+.wifi{
+position: absolute;
+left: 81.07%;
+right: 13.6%;
+top: 8%;
+/* bottom: 96.31%;
+
+background: #000000; */
+}
+
+.wifi img{
+	width:100%;
+	height:100%;
+}
+
+/* Vector */
+.battery{
+position: absolute;
+left: 88%;
+right: 6.67%;
+top: 7%;
+/* bottom: 96.43%;
+
+background: #000000; */
+}
+.battery img{
+	width:100%;
+	height:100%;
+}
+/* Vector */
+
+.data{
+position: absolute;
+left: 74.67%;
+right: 20.53%;
+top: 8%;
+/* bottom: 96.31%;
+
+background: #000000; */
+}
+.data img{
+	width:100%;
+	height:100%;
+}
+/* 9:40 */
+.time{
+position: absolute;
+left: 8.53%;
+right: 78.13%;
+top: 8%;
+bottom: 96.8%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+
+
+/* Vector */
+.back-page{
+position: absolute;
+left: auto;
+right: 90.13%;
+top: 60%;
+border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+/* bottom: 90.27%;
+
+border: 2px solid #363636; */
+}
+.back-page img{
+	width:100%;
+	height:100%;
+}
+
+/* 소비 기록 */
+.title{
+position: absolute;
+/* left: 40.27%; */
+right: 38.93%;
+top: 43.02%;
+bottom: 90.02%;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #363636;
+}
+
+
+/* Rectangle 18 */
+.register-form{
+position: absolute;
+height: 584px;
+	left: 6.93%;
+	right: 7.73%;
+	top: calc(50% - 584px/2 + 18px);
+
+
+background: #FFFFFF;
+box-shadow: 0px 18px 60px rgba(162, 201, 196, 0.2);
+border-radius: 20px;
+}
+
+
+
+/* Rectangle 144 */
+.submit-rectangle{
+position: absolute;
+left: 5.33%;
+right: 5.07%;
+top: 91.75%;
+bottom: 1.35%;
+
+background: #79CCB8;
+box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+border:none;
+}
+
+/* 저장 */
+.submit-rectangle-text{
+	position: absolute;
+	left: 30%;
+	right: 30%;
+	top: 30%;
+	bottom: 3.2%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 22px;
+	line-height: 27px;
+	/* identical to box height */
+
+	color: #FFFFFF;
+}
+
+
+/* Group 1 */
+.date{
+position: absolute;
+width: 264px;
+height: 80px;
+	left: 35px;
+	top: 60px;
+}
+
+
+
+
+/* Rectangle 19 소비 등록 박스*/
+.date-box{
+box-sizing: border-box;
+
+	position: absolute;
+	left: 1%;
+	right: 7%;
+	top: 23%;
+	bottom: 26%;
+
+background: #FFFFFF;
+border: 0.8px solid #A2C9C4;
+border-radius: 5px;
+}
+
+.date-title{
+position: absolute;
+	left: 3%;
+	/*right: 72%;*/
+	top: 1%;
+	bottom: 60%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+
+color: #49AFA3;
+	
+}
+
+
+
+
+/* Group 97 */
+.memo{
+position: absolute;
+width: 264px;
+height: 160px;
+	left: 35px;
+	top: 315px;
+}
+
+
+/* Rectangle 151 */
+.memo-box{
+box-sizing: border-box;
+
+position: absolute;
+left: 1%;
+	right: 7%;
+	top: 23%;
+	bottom: 26%;
+
+background: rgba(255, 255, 255, 0.4);
+border: 0.8px solid #A2C9C4;
+border-radius: 5px;
+}
+
+
+
+
+/* 소비 메모 */
+.memo-title{
+position: absolute;
+left: 3%;
+    right: 72%;
+    top: 10%;
+    bottom: 60%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+color: #49AFA3;
+}
+
+ 
+
+
+/* Group 99 */
+.amount{
+position: absolute;
+width: 264px;
+	height: 80px;
+	left: 35px;
+	top: 145px;
+}
+
+
+/* Rectangle 19 */
+.amount-box{
+box-sizing: border-box;
+
+position: absolute;
+	left: 1%;
+	right: 7%;
+	top: 23%;
+	bottom: 26%;
+
+background: #FFFFFF;
+border: 0.8px solid #A2C9C4;
+border-radius: 5px;
+}
+
+/* 소비 금액 */
+.amount-title{
+position: absolute;
+left: 3%;
+	/* right: 72%; */
+	top: 1%;
+	bottom: 60%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+
+color: #49AFA3;
+}
+
+
+/* 소비 금액를 입력해주세요. */
+
+/* position: absolute;
+left: 18.93%;
+right: 40%;
+top: 38.42%;
+bottom: 59.36%;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+identical to box height
+
+color: #CECECE;
+
+ */
+
+/* Group 100 */
+.photo{
+ position: absolute;
+width: 264px;
+height: 48px;
+left: 35px;
+top: 450px;
+}
+
+
+/* Rectangle 19 */
+.photo-box{
+box-sizing: border-box;
+
+position: absolute;
+left:1%;
+	right: 7%;
+	top: 23%;
+	bottom: 26%;
+background: #FFFFFF;
+border: 0.8px solid #A2C9C4;
+border-radius: 5px;
+width: 170px;
+}
+
+.img-btn{
+	position: absolute;
+	left:70%;
+}
+/* 이미지를 선택해주세요. */
+/* 
+position: absolute;
+left: 18.98%;
+right: 43.86%;
+top: 73.4%;
+bottom: 24.38%;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+identical to box height
+
+color: #CECECE;
+
+ */
+
+/* Group 98 */
+.category{
+position: absolute;
+width: 264px;
+height: 80px;
+	left: 35px;
+	top: 230px;
+}
+
+
+/* 카테고리 설정 */
+.category-title{
+position: absolute;
+left: 3%;
+	right: 72%;
+	top: 1%;
+	bottom: 60%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	width:100px;
+color: #49AFA3;
+}
+
+
+ /* Group 96 */
+/* 
+position: absolute;
+width: 264px;
+height: 48px;
+left: 55px;
+top: 385px;
+ */
+ 
+
+/* Rectangle 152 */
+.category-box{
+box-sizing: border-box;
+
+position: absolute;
+left: 1%;
+	right: 7%;
+	top: 23%;
+	bottom: 26%;
+
+background: #FFFFFF;
+border: 0.8px solid #A2C9C4;
+border-radius: 5px;
+}
+
+/* 카테고리를 설정해주세요. */
+
+position: absolute;
+left: 18.93%;
+right: 40.8%;
+top: 49.38%;
+bottom: 48.4%;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+color: #CECECE;
+
+
+
+/* Polygon 1 */
+
+position: absolute;
+width: 20px;
+height: 14px;
+left: 304px;
+top: 415px;
+
+background: #A2C9C4;
+border-radius: 1px;
+transform: rotate(180deg);
+
+
+/* Ellipse 8 */
+
+position: absolute;
+width: 48px;
+height: 48px;
+left: 271px;
+top: 580px;
+
+background: #A2C9C4;
+box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.25);
+
+
+/* Group 115 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 281px;
+top: 590px;
+
+
+
+/* Mask group */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 281px;
+top: 590px;
+
+
+
+/* image 46 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 281px;
+top: 590px;
+
+background: url(image.png);
+
+
+/* Rectangle 193 */
+
+position: absolute;
+width: 96px;
+height: 62px;
+left: 258px;
+top: 577px;
+
+background: #FFFFFF;

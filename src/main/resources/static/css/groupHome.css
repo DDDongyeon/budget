@@ -1,0 +1,708 @@
+ /* 그룹 홈화면 */
+        body {
+           width: 375px;
+           height: 812px;
+           background: #F9F9F9;
+        }
+        /* 화면 */
+        .container {
+           /*position: absolute;*/
+           width: 375px;
+           height: 812px;
+        }
+
+
+        /* header */
+        .header {
+           position: absolute;
+           left: 0%;
+           right: 0%;
+           top: 0%;
+           bottom: 88.18%;
+
+           background: #FFFFFF;
+           box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 와이파이 */
+        .wifi{
+           position: absolute;
+           left: 81.07%;
+           right: 13.6%;
+           top: 10%;
+           /* bottom: 96.31%;
+
+           background: #000000; */
+        }
+        .wifi img{
+           width:100%;
+           height:100%;
+        }
+
+        /* 배터리 */
+        .battery{
+           position: absolute;
+           left: 88%;
+           right: 6.67%;
+           top: 13%;
+           /* bottom: 96.43%;
+
+           background: #000000; */
+        }
+        .battery img{
+           width:100%;
+           height:100%;
+        }
+
+        /* 데이터 */
+        .data{
+           position: absolute;
+           left: 74.67%;
+           right: 20.53%;
+           top: 10%;
+        }
+        .data img{
+           width:100%;
+           height:100%;
+        }
+
+        /* 9:40 */
+        .time{
+           position: absolute;
+           left: 8.53%;
+           right: 78.13%;
+           top: 8%;
+           bottom: 96.8%;
+
+           font-family: 'Inter', sans-serif;
+           font-style: normal;
+           font-weight: 700;
+           font-size: 18px;
+           line-height: 22px;
+
+           color: #000000;
+        }
+
+        .groupLetter {
+            position: absolute;
+            width: 37px;
+            height: 24px;
+            left: 169px;
+            top: 40px;
+
+            font-family: 'inter';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 24px;
+            /* identical to box height */
+
+            color: #363636;
+        }
+
+    /* main-box */
+    .main {
+        position: absolute;
+        width: 375px;
+        height: 670px;
+        left: 0px;
+        top: 98px;
+    }
+
+
+    /* 검색 박스 */
+    .search-box {
+    position: absolute;
+    width: 375px;
+    height: 101px;
+    left: 0px;
+    /* top: 0px; */
+    }
+
+    /* 검색창 rec */
+    .search {
+    position: absolute;
+    left: 8.8%;
+    right: 18.67%;
+    top: 28.93%;
+    bottom: 31.4%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(190, 190, 190, 0.25);
+    border-radius: 20px;
+    }
+
+    /* searchInput */
+    #searchInput {
+    position: absolute;
+    left: 12.53%;
+    right: 22.4%;
+    top: 30.69%;
+    bottom: 34.65%;
+
+    border: none;
+    background: #FFFFFF;
+    }
+
+    /* Hide the "x" symbol */
+    #searchInput::-webkit-search-cancel-button,
+    #searchInput::-webkit-search-decoration,
+    #searchInput::-webkit-search-results-button,
+    #searchInput::-webkit-search-results-decoration {
+      display: none;
+    }
+
+    /* 돋보기 */
+    /* image 54 */
+    .searchIcon {
+        position: absolute;
+        left: 86.13%;
+        right: 7.47%;
+        top: 37.38%;
+        bottom: 40%;
+    }
+
+    /* 나의그룹 박스 */
+    .myGroup-box {
+        position: absolute;
+        width: 375px;
+        height: 290px;
+        left: 0px;
+        top: 80px;
+    }
+
+     /* 나의그룹 글씨 */
+     .myGroupLetter {
+         position: absolute;
+         left: 11.16%;
+         right: 73.86%;
+         top: 2.64%;
+         bottom: 91.56%;
+
+         font-family: 'Abhaya Libre ExtraBold';
+         font-style: normal;
+         font-weight: 800;
+         font-size: 14px;
+         line-height: 17px;
+         /* identical to box height */
+
+         color: #363636;
+     }
+
+     /* 만들기 버튼 */
+     .createBtn {
+         box-sizing: border-box;
+
+         position: absolute;
+         left: 77.05%;
+         right: 7.7%;
+         top: 1.28%;
+         bottom: 90.53%;
+
+         background: #F3F3F3;
+         border: 0.5px solid #ACACAC;
+         box-shadow: 0px 1px 3px rgba(154, 154, 154, 0.25);
+         border-radius: 30px;
+
+          font-family: 'inter';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 20px;
+          color: #ACACAC;
+     }
+
+    /* 만들기 글씨 */
+    .createLetter {
+        position: absolute;
+        left: 80.53%;
+        right: 10.93%;
+        top: 3.1%;
+        bottom: 92.07%;
+
+        font-family: 'inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+
+        color: #ACACAC;
+    }
+
+
+.userGroup-container {
+    position: relative;
+    top: 30px;
+    width: 375px;
+    height: auto;
+}
+
+.userGroupList-box {
+    position: absolute;
+    width: 375px;
+    height: 251px;
+    left: 0px;
+}
+
+.list{
+   position:relative;
+   display:inline-block;
+   width:408px;
+   height:62px;
+   margin-top: 5px;
+}
+.list+.list{
+   margin-top:20px;
+}
+
+.userGroupBtn-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 328px;
+    height: 75px;
+    left: 24px;
+    top: 0px;
+
+    background: #EFF4F4;
+    border: 1px solid #85C3BC;
+    border-radius: 20px;
+}
+
+.budgetBucketIcon {
+    position: absolute;
+    width: 44.04px;
+    height: 40.68px;
+    left: 26.37px;
+    top: 19.74px;
+}
+
+.userGroupName {
+    position: absolute;
+    left: 27.39%;
+    right: 31.21%;
+    top: 22.48%;
+    bottom: 53.73%;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #3DAA9D;
+
+    white-space: nowrap;  /*줄바꿈X*/
+}
+
+.userGroupTag {
+    box-sizing: border-box;
+
+    position: absolute;
+    /*width: 84px;*/
+    height: 18px;
+    left: 90px;
+    top: 47px;
+
+    background: #FFEACF;
+    border: 0.3px solid #FCB860;
+    border-radius: 5px;
+
+    font-size: 12px; /* 원하는 글씨 크기로 설정 */
+    text-align: center; /* 글씨 가운데 정렬 */
+    color: #F5952D; /* 원하는 색상으로 설정 */
+
+    padding: 2.5px; /* 패딩 값 조정 */
+}
+
+.userGroupPeopleNum {
+    position: absolute;
+    width: 38px;
+    height: 14px;
+    left: 192px;
+    top: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height */
+
+    color: #524E4E;
+}
+
+
+
+/* 그룹추천 박스 */
+.groupRecommend-box{
+position: absolute;
+width: 375px;
+height: 280px;
+left: 0px;
+top: 391px;
+}
+
+/* 그룹 추천 글자 */
+.groupRecommendLetter {
+position: absolute;
+left: 11.73%;
+right: 73.6%;
+top: 1.56%;
+bottom: 91.8%;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #363636;
+}
+
+
+
+/* 필수태그 박스 */
+.requiredTag-box {
+position: absolute;
+width: 310.68px;
+height: 26px;
+left: 33px;
+top: 33px;
+}
+
+
+/* #청소년 버튼 */
+.tag1 {
+position: absolute;
+width: 65px;
+height: 26px;
+left: 0px;
+top: 0px;
+
+background: #96D6C7;
+border-radius: 30px;
+}
+
+/* #청소년 */
+.tag1Letter {
+position: absolute;
+width: 44px;
+height: 14px;
+left: 11px;
+top: 6px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+
+color: #FFFFFF;
+}
+
+
+/* #대학생 버튼 */
+.tag2 {
+position: absolute;
+width: 65px;
+height: 26px;
+left: 82px;
+top: 0px;
+
+background: #96D6C7;
+border-radius: 30px;
+}
+
+/* #대학생 */
+.tag2Letter {
+position: absolute;
+width: 44px;
+height: 14px;
+left: 11px;
+top: 6px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+
+color: #FFFFFF;
+}
+
+
+/* #취준생 버튼 */
+.tag3 {
+position: absolute;
+width: 65px;
+height: 26px;
+left: 164px;
+top: 0px;
+
+background: #96D6C7;
+border-radius: 30px;
+}
+
+/* #취준생 */
+.tag3Letter {
+position: absolute;
+width: 44px;
+height: 14px;
+left: 11px;
+top: 6px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+
+color: #FFFFFF;
+}
+
+
+/* #직장인 버튼 */
+.tag4 {
+position: absolute;
+width: 65px;
+height: 26px;
+left: 246px;
+top: 0px;
+
+background: #96D6C7;
+border-radius: 30px;
+}
+
+/* #직장인 */
+.tag4Letter {
+position: absolute;
+width: 44px;
+height: 14px;
+left: 11px;
+top: 6px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+
+color: #FFFFFF;
+}
+
+.HgroupList-container {
+    position: relative;
+    width: 375px;
+    top: 72px;
+    height: auto;
+}
+
+/* 그룹목록 박스 */
+.HgroupList-box {
+position: absolute;
+width: 330px;
+height: 210px;
+left: 0px;
+}
+
+.Hlist{
+   position:relative;
+   display:inline-block;
+   width:330px;
+   height:62px;
+   margin-top: 5px;
+}
+
+.Hlist+.Hlist{
+   margin-top:20px;
+}
+
+/* 그룹버튼 프레임 */
+.HgroupBtn-box {
+box-sizing: border-box;
+
+width: 330px;
+height: 62px;
+
+position: absolute;
+left: 20px;
+right: 9.33%;
+top: 0%;
+bottom: 67.93%;
+
+background: #EFF4F4;
+border: 1px solid #96D6C7;
+border-radius: 20px;
+}
+
+/* 해시태그 */
+.HgroupTag {
+position: absolute;
+width: 52px;
+height: 18px;
+left: 35px;
+top: 32px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: #FFAE45;
+
+white-space: nowrap;  /*줄바꿈X*/
+}
+
+
+/* 그룹명 */
+.HgroupName {
+position: absolute;
+left: 10.93%;
+right: 47.89%;
+top: 22.03%;
+bottom: 55.07%;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+color: #3DAA9D;
+
+white-space: nowrap;  /*줄바꿈X*/
+}
+
+
+
+
+
+/* 모달 스타일 */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 30px; /* 둥글게 조정할 값 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+/* 가입하기 버튼*/
+.signupButton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #79CCB8;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 그룹 정보 스타일 */
+.group-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.group-name {
+    font-weight: bold;
+}
+
+.group-details-top {
+    margin-top: 10px;
+}
+
+.group-details-top span {
+    margin-right: 10px;
+}
+
+.group-requiredTag {
+    font-weight: bold;
+    color: #3DAA9D;
+}
+
+.group-members {
+    color: #000;
+}
+
+.group-leader {
+    color: #000;
+}
+
+.group-details-bottom {
+    margin-top: 15px;
+}
+
+.group-tag {
+    color: #FFAE45;
+    margin-bottom: 5px;
+}
+
+.group-description {
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 하단 네비게이터 */
+        .footer-nav {
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: 92%;
+            bottom: 0%;
+
+            background: #FFFFFF;
+            border-radius: 25px 25px 0px 0px;
+        }

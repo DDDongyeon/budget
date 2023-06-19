@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+body {
+	font-family: 'Pretendard-Regular';
+	min-height: 100vh;  
+	width: 100%; 
+	height: 100%;
+    display: flex;
+    background: #f5f5f5;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/* 와이파이 */
+.wifi{
+	position: absolute;
+	left: 81.07%;
+	right: 13.6%;
+	top: 2.1%;
+	/* bottom: 96.31%;
+
+	background: #000000; */
+}
+.wifi img{
+	width:100%;
+	height:100%;
+}
+/* 배터리 */
+.battery{
+	position: absolute;
+	left: 88%;
+	right: 6.67%;
+	top: 2%;
+	/* bottom: 96.43%;
+
+	background: #000000; */
+}
+.battery img{
+	width:100%;
+	height:100%;
+}
+/* 데이터 */
+.data{
+	position: absolute;
+	left: 74.67%;
+	right: 20.53%;
+	top: 2.1%;
+	/* bottom: 96.31%;
+
+	background: #000000;
+	 */
+}
+.data img{
+	width:100%;
+	height:100%;
+}
+/* 9:40 */
+.time{
+	position: absolute;
+	left: 8.53%;
+	right: 78.13%;
+	top: 2%;
+	bottom: 96.8%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #000000;
+	
+}
+.content {
+}
+
+
+.logoBox {
+	max-width: 900px;
+	position:absolute;
+	top:160px;
+	left:-2px;
+}
+
+
+.Smalllogo {
+	margin: auto;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: #5B5B5B;
+}
+
+.form {
+	margin-top: 230px;
+	width:320px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	
+}
+
+.formbox {
+	max-width: 500px;
+	height: 55px;
+	background: #FFFFFF;
+	margin: auto;
+	border-radius: 50px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+	margin-bottom: 16px;
+	display: flex;
+    align-items: center;
+
+}
+
+.formbox:hover {
+	 border: 1px solid #F4C4C1;
+}
+
+
+.formbox input {
+	font-family: 'Pretendard-Regular';
+	border: none;
+	background: #ffffff;
+	width: 64%;
+	height: 32px;
+	font-size: 24px;
+	color: #5B5B5B;
+	font-weight: 500;
+}
+
+.formbox input:focus {
+	outline: none;
+}
+
+
+.formimg {
+	padding-left: 40px;
+	margin-right: 32px;
+	width: 32px;
+}
+
+.loginbtn {
+	max-width: 500px;
+	margin-top: 32px;
+	text-align: center;
+
+}
+
+.loginbtn button {
+	font-family: 'Pretendard-Regular';
+	width: 100%;
+	height: 55px;
+	border: none;
+	border-radius: 50px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 600;
+	background: #F87670;
+}
+
+.loginbtn button:hover {
+	background: #D55852;
+}
+
+
+.rgst {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;	
+    
+}
+
+.rgst a {
+	color: #F87670;
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration-line: none;
+}
+
+.line {
+    width: 100%;
+	margin-top: 64px;
+	margin-bottom: 40px;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #5B5B5B;
+    font-weight: 500;
+}
+.line::before {
+	display: inline-block;
+	margin: 0 20px 3px 0;
+	height: 1px;
+	content: " ";
+	text-shadow: none;
+	background-color: #B5B5B5;
+	width: 30%;
+}
+.line::after {
+	display: inline-block;
+	margin: 0 0 3px 20px;
+	height: 1px;
+	content: " ";
+	text-shadow: none;
+	background-color: #B5B5B5;
+	width: 30%;
+}

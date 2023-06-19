@@ -1,0 +1,530 @@
+@charset "UTF-8";
+
+body {
+	width: 375px;
+	height: 930px;
+	background: #F9F9F9;
+}
+
+/* 상단네모 */
+.top-rectangle{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 88.18%;
+
+	background: #FFFFFF;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	z-index: 2;
+}
+
+
+/* 와이파이 */
+.wifi{
+	position: absolute;
+	left: 81.07%;
+	right: 13.6%;
+	top: 10%;
+	/* bottom: 96.31%;
+
+	background: #000000; */
+}
+.wifi img{
+	width:100%;
+	height:100%;
+}
+/* 배터리 */
+.battery{
+	position: absolute;
+	left: 88%;
+	right: 6.67%;
+	top: 13%;
+	/* bottom: 96.43%;
+
+	background: #000000; */
+}
+.battery img{
+	width:100%;
+	height:100%;
+}
+/* 데이터 */
+.data{
+	position: absolute;
+	left: 74.67%;
+	right: 20.53%;
+	top: 10%;
+	/* bottom: 96.31%;
+
+	background: #000000;
+	 */
+}
+.data img{
+	width:100%;
+	height:100%;
+}
+/* 9:40 */
+.time{
+	position: absolute;
+	left: 8.53%;
+	right: 78.13%;
+	top: 8%;
+	bottom: 96.8%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #000000;
+
+}
+
+
+/* 이전페이지로 */
+.back-page{
+	position: absolute;
+	left: auto;
+	right: 90%;
+	top: 60%;
+	background-color: transparent;
+    border: none;
+	/* bottom: 90.27%;
+
+	border: 2px solid #363636; */
+}
+.back-page img{
+	width:100%;
+	height:100%;
+}
+
+.group-name{
+	position: absolute;
+	/* left: 39.47%; */
+	left: 50%;
+	transform: translateX(-50%);
+	top: 46%;
+	bottom: 90.27%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #60B8AE;
+}
+
+
+
+
+
+/* 메인 프레임 */
+.main {
+position: absolute;
+width: 374px;
+height: 649px;
+left: 1px;
+top: 96px;
+}
+
+/* 소비 프레임 */
+.consume-frame {
+position: absolute;
+width: 350px;
+height: 100px;
+left: 28px;
+top: 19px;
+}
+
+.budgetProfileIcon {
+position: absolute;
+width: 32px;
+height: 32px;
+left: 0px;
+top: 0px;
+}
+
+/* 소비글 프레임 */
+.consumeContent-frame {
+position: absolute;
+width: 155px;
+height: 79px;
+left: 64px;
+top: 0px;
+}
+
+/* 소비자 닉네임 */
+.consumerNickname {
+position: absolute;
+left: 1.29%;
+right: 83.87%;
+top: 1.27%;
+bottom: 87.34%;
+width:60px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 13px;
+
+color: #000000;
+
+white-space: nowrap;  /*줄바꿈X*/
+}
+
+/* 소비 작성글 */
+.consumeContent {
+position: absolute;
+left: 0%;
+right: 1%;
+top: 53.37%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 12px;
+
+color: #000000;
+}
+
+/* 소비날짜 */
+.consumeDate {
+position: absolute;
+left: 50%;
+right: 29.68%;
+top: 2%;
+bottom: 83.54%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height */
+
+color: #000000;
+
+white-space: nowrap;  /*줄바꿈X*/
+}
+
+
+/* 소비액 */
+.consumePrice {
+position: absolute;
+left: 0%;
+right: 68.39%;
+top: 26.52%;
+bottom: 59.49%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+
+white-space: nowrap;  /*줄바꿈X*/
+}
+
+/* 소비 카테고리 */
+.consumeCategory {
+position: absolute;
+height: 16px;
+left: 60px;
+top: 20px;
+
+background: rgba(96, 184, 174, 0.8);
+border-radius: 20px;
+
+/* 너비 자동 조정 */
+width: auto;
+max-width: 100%; /* 최대 너비 설정 */
+
+/* 글씨 스타일 */
+color: white; /* 글씨 색상 */
+font-size: 11px; /* 글씨 크기 */
+padding: 1px 8px; /* 내부 여백 설정 */
+
+white-space: nowrap;  /*줄바꿈X*/
+}
+.consumeCategory1{
+position: absolute;
+height: 14px;
+left: 72px;
+top: 20px;
+
+background-color: #3B82A1
+border-radius: 20px;
+
+/* 너비 자동 조정 */
+width: auto;
+max-width: 100%; /* 최대 너비 설정 */
+
+/* 글씨 스타일 */
+color: white; /* 글씨 색상 */
+font-size: 11px; /* 글씨 크기 */
+padding: 1px 8px; /* 내부 여백 설정 */
+
+white-space: nowrap;  /*줄바꿈X*/
+}
+.consumeCategory2 {
+position: absolute;
+height: 14px;
+left: 72px;
+top: 20px;
+
+background-color: #43B8B1;
+border-radius: 20px;
+
+/* 너비 자동 조정 */
+width: auto;
+max-width: 100%; /* 최대 너비 설정 */
+
+/* 글씨 스타일 */
+color: white; /* 글씨 색상 */
+font-size: 11px; /* 글씨 크기 */
+padding: 1px 8px; /* 내부 여백 설정 */
+
+white-space: nowrap;  /*줄바꿈X*/
+}
+.consumeCategory3 {
+position: absolute;
+height: 14px;
+left: 72px;
+top: 20px;
+
+background-color: #4D97ED;
+border-radius: 20px;
+
+/* 너비 자동 조정 */
+width: auto;
+max-width: 100%; /* 최대 너비 설정 */
+
+/* 글씨 스타일 */
+color: white; /* 글씨 색상 */
+font-size: 11px; /* 글씨 크기 */
+padding: 1px 8px; /* 내부 여백 설정 */
+
+white-space: nowrap;  /*줄바꿈X*/
+}
+.consumeCategory4 {
+position: absolute;
+height: 14px;
+left: 72px;
+top: 20px;
+
+background-color: #FF9900;
+border-radius: 20px;
+
+/* 너비 자동 조정 */
+width: auto;
+max-width: 100%; /* 최대 너비 설정 */
+
+/* 글씨 스타일 */
+color: white; /* 글씨 색상 */
+font-size: 11px; /* 글씨 크기 */
+padding: 1px 8px; /* 내부 여백 설정 */
+
+white-space: nowrap;  /*줄바꿈X*/
+}
+
+/* 사진 */
+.image {
+position: absolute;
+width: 80px;
+height: 80px;
+left: 251px;
+}
+
+/* 라인 */
+.line {
+position: absolute;
+width: 375px;
+height: 0px;
+left: -1px;
+top: 120px;
+
+border: 0.8px solid rgba(121, 204, 184, 0.33);
+}
+
+/* 코멘트 등록 프레임 */
+.commentWrite-frame {
+position: absolute;
+width: 339px;
+height: 58px;
+left: 19px;
+top: 140px;
+}
+
+/* 코멘트 남기기 글자 */
+.commentWriteLetter {
+position: absolute;
+width: 100px;
+height: 17px;
+left: 0px;
+top: 1px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+
+color: #79CCB8;
+}
+
+/* 코멘트 입력창 */
+.commentWriteRec {
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 15.04%;
+top: 41.38%;
+bottom: 0%;
+height:35px;
+background: #FFFFFF;
+border: 0.8px solid #A2C9C4;
+border-radius: 10px;
+}
+
+#commentInput {
+position: absolute;
+left: 7px;
+width: 270px;
+height: 32px;
+
+border: none;
+}
+
+
+/* 등록 버튼 */
+.registerBtn {
+position: absolute;
+width: 47px;
+height: 25px;
+left: 296px;
+top: 28px;
+
+background: #79CCB8;
+border-radius: 20px;
+}
+
+/* 등록 글자 */
+.registerLetter {
+position: absolute;
+width: 23px;
+height: 12px;
+left: 13.5px;
+top: 6.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 13px;
+
+color: #FFFFFF;
+}
+
+
+
+
+
+/* 댓글 목록 프레임 */
+.commentList-frame {
+position: absolute;
+width: 375px;
+height: 455px;
+left: -1px;
+top: 230px;
+margin-left: 25px;
+}
+
+.cmtList {
+    pisition: relative;
+    width:332px;
+    height:20px;
+    margin-top: 5px;
+}
+
+.cmtList +.cmtList {
+    margin-top: 10px;
+}
+
+/* 코멘트 */
+.comment {
+box-sizing: border-box;
+
+position: absolute;
+width: 332px;
+height: 20px;
+}
+
+
+/* 코멘트 작성자 */
+.commentWriter {
+position: absolute;
+width: 47px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: rgba(0, 0, 0, 0.7);
+
+white-space: nowrap;  /*줄바꿈X*/
+}
+
+
+/* 코멘트 내용 */
+.commentContent {
+position: absolute;
+width: 174px;
+height: 19px;
+left: 73px;
+top: 2px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* 코멘트 등록일 */
+.commentDate {
+position: absolute;
+width: 65px;
+height: 11px;
+left: 267px;
+top: 4px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+

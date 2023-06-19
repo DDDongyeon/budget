@@ -1,0 +1,576 @@
+@charset "UTF-8";
+
+body {
+	width: 375px;
+	height: 812px;
+}
+/* 챌린지 등록 */
+.container{
+	position: relative;
+	width: 375px;
+	height: 812px;
+	bottom: 1%;
+    right: 2%;
+	background: linear-gradient(180deg, #FFF5F2 0%, #F2FFFD 100%);
+}
+
+/* 상단 네모 */
+.top-rectangle{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 88.18%;
+
+	background: #FFFFFF;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 와이파이 */
+.wifi{
+	position: absolute;
+	left: 81.07%;
+	right: 13.6%;
+	top: 8%;
+	/* bottom: 96.31%;
+
+	background: #000000; */
+}
+.wifi img{
+	width:100%;
+	height:100%;
+}
+/* 배터리 */
+.battery{
+	position: absolute;
+	left: 88%;
+	right: 6.67%;
+	top: 8%;
+	/* bottom: 96.43%;
+
+	background: #000000; */
+}
+.battery img{
+	width:100%;
+	height:100%;
+}
+
+/* 데이터 */
+.data{
+	position: absolute;
+	left: 74.67%;
+	right: 20.53%;
+	top: 8%;
+}
+.data img{
+	width:100%;
+	height:100%;
+}
+
+
+/* 9:40 */
+.time{
+	position: absolute;
+	left: 8.53%;
+	right: 78.13%;
+	top: 8%;
+	bottom: 96.8%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #000000;
+}
+
+
+/* 이전페이지로 */
+.back-page{
+	position: absolute;
+	left: auto;
+	right: 90%;
+	top: 60%;
+	/* bottom: 90.27%;
+
+	border: 2px solid #363636; */
+}
+.back-page img{
+	width:100%;
+	height:100%;
+}
+
+/* 생성 폼 큰네모 */
+.register-form{
+	position: absolute;
+	height: 584px;
+	left: 6.93%;
+	right: 7.73%;
+	top: calc(50% - 584px/2 + 18px);
+
+	background: #FFFFFF;
+	box-shadow: 0px 18px 60px rgba(112, 144, 176, 0.2);
+	border-radius: 20px;
+}
+
+form {
+	height:700px;
+}
+
+/* 버찌 만들기 */
+.make-budget{
+	position: absolute;
+	/*left: 37.6%;  */
+	right: 37.87%;
+	top: 43%;
+	bottom: 90.27%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	/* identical to box height */
+
+	color: #363636;
+}
+
+
+/* 생성 완료 네모 */
+.submit-rectangle{
+	position: absolute;
+	left: 5.33%;
+	right: 5.07%;
+	top: 91.75%;
+	bottom: 1.35%;
+	
+	background: #F87670;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	border:none;
+}
+
+/* 생성 완료 */
+.submit-rectangle-text{
+	position: absolute;
+	left: 30%;
+	right: 30%;
+	top: 30%;
+	bottom: 3.2%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 22px;
+	line-height: 27px;
+	/* identical to box height */
+
+	color: #FFFFFF;
+	
+}
+
+
+/* 버찌제목 */
+.budget-name{
+	position: absolute;
+	width: 264px;
+	height: 80px;
+	left: 35px;
+	top: 60px;
+}
+
+/* 버찌 제목 네모 */
+.budget-name-rectangle{
+	box-sizing: border-box;
+	position: absolute;
+	left: 1%;
+	right: 7%;
+	top: 23%;
+	bottom: 26%;
+
+	background: #FFFFFF;
+	border: 0.8px solid #F4C4C1;
+	border-radius: 5px;
+	
+}
+
+/* 버찌 제목을 입력해주세요. */
+.budget-name-input{
+	position: absolute;
+	left: 18.93%;
+	right: 40%;
+	top: 27.46%;
+	bottom: 70.32%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	/* identical to box height */
+
+	color: #CECECE;
+	
+}
+
+
+/* 버찌 제목 */
+.budget-name-title{
+	position: absolute;
+	left: 3%;
+	/*right: 72%;*/
+	top: 1%;
+	bottom: 60%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+
+	color: #F87670;
+	
+}
+
+/* 시작 날짜 */
+.start-date{
+	position: absolute;
+	width: 264px;
+	height: 80px;
+	left: 35px;
+	top: 145px;
+}
+
+/* 시작 날짜 네모 */
+.start-date-rectangle{
+	box-sizing: border-box;
+
+	position: absolute;
+	left: 1%;
+	right: 7%;
+	top: 23%;
+	bottom: 26%;
+
+	background: #FFFFFF;
+	border: 0.8px solid #F4C4C1;
+	border-radius: 5px;
+	
+}
+
+/* 시작 날짜 */
+.start-date-title{
+	position: absolute;
+	left: 3%;
+	/* right: 72%; */
+	top: 1%;
+	bottom: 60%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+
+	color: #F87670;
+}
+
+/* 2000 - 00 - 00 */
+
+position: absolute;
+left: 18.93%;
+right: 54.4%;
+top: 38.42%;
+bottom: 59.36%;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+color: #CECECE;
+
+
+
+/* 🦆 icon "calendar date" */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 287px;
+top: 308px;
+
+
+
+/* 캘린더 */
+
+position: absolute;
+left: 76.53%;
+right: 17.6%;
+top: 37.93%;
+bottom: 59.36%;
+
+background: #F4C4C1;
+
+
+/* 날짜 */
+
+position: absolute;
+left: 78.18%;
+right: 19.31%;
+top: 38.99%;
+bottom: 60.07%;
+
+background: #F4C4C1;
+
+
+/* 종료날짜 */
+
+.end-date{
+	position: absolute;
+	width: 264px;
+	height: 80px;
+	left: 35px;
+	top: 195px;
+}
+
+.end-date{
+	position: absolute;
+	width: 264px;
+	height: 80px;
+	left: 35px;
+	top: 230px;
+}
+
+/* 종료날짜 네모 */
+.end-date-rectangle{
+	box-sizing: border-box;
+
+	position: absolute;
+	left: 1%;
+	right: 7%;
+	top: 23%;
+	bottom: 26%;
+
+	background: #FFFFFF;
+	border: 0.8px solid #F4C4C1;
+	border-radius: 5px;
+}
+
+/* 종료 날짜 */
+.end-date-title{
+	position: absolute;
+	left: 3%;
+	right: 72%;
+	top: 1%;
+	bottom: 60%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+
+	color: #F87670;
+}
+
+/* 2000 - 00 - 00 */
+
+position: absolute;
+left: 18.93%;
+right: 54.4%;
+top: 49.38%;
+bottom: 48.4%;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+color: #CECECE;
+
+
+
+/* 🦆 icon "calendar date" */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 287px;
+top: 397px;
+
+
+
+/* 캘린더 */
+
+position: absolute;
+left: 76.53%;
+right: 17.6%;
+top: 48.89%;
+bottom: 48.4%;
+
+background: #F4C4C1;
+
+
+/* 날짜 */
+
+position: absolute;
+left: 78.18%;
+right: 19.31%;
+top: 49.95%;
+bottom: 49.11%;
+
+background: #F4C4C1;
+
+
+/* 버찌금액 */
+.budget-money{
+	position: absolute;
+	width: 264px;
+	height: 80px;
+	left: 35px;
+	top: 300px;
+}
+.budget-money{
+	position: absolute;
+	width: 264px;
+	height: 80px;
+	left: 35px;
+	top: 315px;
+}
+
+
+/* 버찌 금액 네모 */
+.budget-money-rectangle{
+	box-sizing: border-box;
+
+	position: absolute;
+	left:24%;
+	right: 7%;
+	top: 23%;
+	bottom: 26%;
+
+	background: #FFFFFF;
+	border: 0.8px solid #F4C4C1;
+	border-radius: 5px;
+}
+
+/* 버찌 금액 */
+.budget-money-title{
+	position: absolute;
+	left: 3%;
+	right: 72%;
+	top: 1%;
+	bottom: 60%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+
+	color: #F87670;
+	
+}
+
+
+/* cherry-img */
+.cherry-img img{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 10px;
+	top: 23px;
+	
+}
+
+/* 목표 금액을 입력해주세요. */
+
+position: absolute;
+left: 37.07%;
+right: 21.87%;
+top: 59.85%;
+bottom: 37.93%;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+color: #CECECE;
+
+
+
+/* 다짐 한마디 */
+.one-text{
+	position: absolute;
+	width: 264px;
+	height: 100px;
+	left: 35px;
+	top: 539px;
+}
+.one-text{
+	position: absolute;
+	width: 264px;
+	height: 170px;
+	left: 35px;
+	top: 387px;
+}
+
+/* 다짐 네모 */
+.one-text-rectangle{
+	box-sizing: border-box;
+
+	position: absolute;
+	left:1%;
+	right: 7%;
+	top: 23%;
+	bottom: 26%;
+
+	background: rgba(255, 255, 255, 0.4);
+	border: 0.8px solid #F4C4C1;
+	border-radius: 5px;
+	
+}
+
+/* 다짐 한마디 */
+.one-text-title{
+	position: absolute;
+	left: 3%;
+	right: 72%;
+	top: 10%;
+	bottom: 60%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+
+	color: #F87670;
+}
+
+/* 다짐을 남겨주세요. */
+
+position: absolute;
+left: 18.93%;
+right: 51.2%;
+top: 70.94%;
+bottom: 26.85%;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+color: #CECECE;
+
+

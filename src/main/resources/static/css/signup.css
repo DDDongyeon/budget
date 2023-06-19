@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Pretendard-Regular';
+	background: #f5f5f5;
+	margin: 0;
+	padding: 0;
+}
+
+.top-rectangle{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 88.18%;
+	
+	background: #FFFFFF;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	z-index: 2;
+}
+
+
+/* 와이파이 */
+.wifi{
+	position: absolute;
+	left: 81.07%;
+	right: 13.6%;
+	top: 8%;
+	/* bottom: 96.31%;
+
+	background: #000000; */
+}
+.wifi img{
+	width:100%;
+	height:100%;
+}
+/* 배터리 */
+.battery{
+	position: absolute;
+	left: 88%;
+	right: 6.67%;
+	top: 8%;
+	/* bottom: 96.43%;
+
+	background: #000000; */
+}
+.battery img{
+	width:100%;
+	height:100%;
+}
+/* 데이터 */
+.data{
+	position: absolute;
+	left: 74.67%;
+	right: 20.53%;
+	top: 8%;
+	/* bottom: 96.31%;
+
+	background: #000000;
+	 */
+}
+.data img{
+	width:100%;
+	height:100%;
+}
+/* 9:40 */
+.time{
+	position: absolute;
+	left: 8.53%;
+	right: 78.13%;
+	top: 8%;
+	bottom: 96.8%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #000000;
+	
+}
+
+.close{
+	position: absolute;
+width: 11px;
+height: 11px;
+left: 316px;
+top: 142px;
+}
+
+
+/* 이전페이지로 */
+.back-page{
+	position: absolute;
+	left: auto;
+	right: 90%;
+	top: 60%;
+	background-color: transparent;
+    border: none;
+	/* bottom: 90.27%;
+
+	border: 2px solid #363636; */
+}
+.back-page img{
+	width:100%;
+	height:100%;
+}
+.title{
+	position: absolute;
+	left: 39.47%;
+	right: calc(37.87% - 25px);
+	top: 43%;
+	bottom: 90.27%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+
+}
+
+.signupNav {
+	background: #FFFFFF;
+	height: 8vh;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.statusbar{
+	height: 2vh;
+}
+
+.signupTitle{
+	display: flex;
+	flex-direction: row;
+	margin-top: 16px;
+	height: 6vh;
+}
+
+.signupTitle a {
+	display: flex;
+	justify-content: center;
+    align-items: center;	
+}
+
+.prev {
+	width: 1.5rem;
+	margin-left: 4vw;
+}
+
+.signup {
+	font-size: 3rem;
+	color: #5b5b5b;
+	margin: auto;
+}
+
+.signupForm {
+    margin: auto;
+    margin-top: 60px;
+    max-width: 800px;
+    width: 60%;
+    background: #ffffff;
+    box-shadow: 0px 18px 60px rgba(112, 144, 176, 0.2);
+    border-radius: 20px;
+    padding: 20px 50px 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.signupForm p {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #F87670;
+}
+
+.signupForm div {
+	font-size: 2rem;
+	max-width: 700px;
+	width: 110%;
+}
+
+.signupForm input {
+	font-family: 'Pretendard-Regular';
+	max-width: 700px;
+	width: 95%;
+	height: 4.5vh;
+	font-size: 2.8rem;
+	border-color: #F4C4C1;
+	border-style: solid;
+	border-radius: 5px;
+	padding-left: 20px;
+	color: #5b5b5b;
+}
+
+
+
+.signupForm input:focus {
+	outline: none;
+	background: #FFEDEC;
+}
+
+
+.signupBtn {
+	font-family: 'Pretendard-Regular';
+	position : fixed;
+    left: 50%;
+    transform: translateX( -50% );
+	bottom : 20px;
+	max-width: 800px;
+	width: 90%;
+	font-size: 3rem;
+	color: #ffffff;
+	font-weight: 600;
+	height: 5vh;
+	border: none;
+	background: #F87670;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+
+.signupBtn:hover{
+    background: #D55852;
+}

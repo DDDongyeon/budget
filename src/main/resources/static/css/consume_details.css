@@ -1,0 +1,1975 @@
+@charset "UTF-8";
+
+.close{
+	margin-left:150px;
+	width: 11px;
+height: 11px;
+left: 316px;
+top: 142px;
+	
+}
+.nick {
+  width: 182px;
+  height: 25px;
+  left: 55px;
+  top: 228px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px; /* Increase the font size to 30px */
+  line-height: 25px; /* Adjust line-height accordingly */
+  color: #000000;
+  padding: 25px 0;
+}
+
+
+.money {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+    margin-right: 8px;
+}
+
+.content {
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000000;
+    margin-right: 5px;
+    white-space: pre-wrap;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.cno {
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 17px;
+    color: #000000;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.category-rectangle1 {
+    top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    margin-right: 10px;
+    width: 90px;
+        margin-left: 5px;
+    color: #3B82A1;
+
+}
+
+.category-rectangle2 {
+    top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    margin-right: 10px;
+    width: 90px;
+        margin-left: 5px;
+    color: #43B8B1;
+
+}
+
+.category-rectangle3 {
+    top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    margin-right: 10px;
+    width: 90px;
+        margin-left: 5px;
+    color: #4D97ED;
+
+}
+
+.category-rectangle4 {
+    top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    margin-right: 10px;
+    width: 90px;
+        margin-left: 5px;
+    color: #FF9900;
+
+}
+
+/* 그룹 캘린더 일별 상세(돋보기) */
+
+position: relative;
+width: 375px;
+height: 812px;
+
+background: #F9FAFE;
+
+
+/* Rectangle 22 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 88.18%;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+
+/* Rectangle 162 */
+
+position: absolute;
+left: 4.27%;
+right: 4%;
+top: 96.18%;
+bottom: -8.74%;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 5px rgba(112, 144, 176, 0.2);
+border-radius: 20px;
+
+
+/* Rectangle 152 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 14.41%;
+bottom: 28.45%;
+
+background: #FFFFFF;
+border-radius: 30px;
+
+
+/* Vector */
+
+position: absolute;
+left: 81.07%;
+right: 13.6%;
+top: 1.97%;
+bottom: 96.31%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 88%;
+right: 6.67%;
+top: 2.22%;
+bottom: 96.43%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 74.67%;
+right: 20.53%;
+top: 1.72%;
+bottom: 96.31%;
+
+background: #000000;
+
+
+/* 9:40 */
+
+position: absolute;
+left: 8.53%;
+right: 78.13%;
+top: 1.35%;
+bottom: 96.8%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 81.07%;
+right: 13.6%;
+top: 1.97%;
+bottom: 96.31%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 88%;
+right: 6.67%;
+top: 2.22%;
+bottom: 96.43%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 74.67%;
+right: 20.53%;
+top: 1.72%;
+bottom: 96.31%;
+
+background: #000000;
+
+
+/* 9:40 */
+
+position: absolute;
+left: 8.53%;
+right: 78.13%;
+top: 1.35%;
+bottom: 96.8%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+
+
+/* 등록 */
+
+position: absolute;
+left: 44.53%;
+right: 44.53%;
+top: 93.47%;
+bottom: 3.2%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* 5월 */
+
+position: absolute;
+left: 45.6%;
+right: 46.13%;
+top: 17.36%;
+bottom: 79.19%;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 28px;
+
+color: #363636;
+
+
+
+/* Line 2 */
+
+position: absolute;
+width: 336px;
+height: 0px;
+left: 19px;
+top: 311px;
+
+border: 1px solid #F4F4F4;
+
+
+/* Group 32 */
+
+position: absolute;
+width: 336px;
+height: 377px;
+left: 18px;
+top: 204px;
+
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 222px;
+top: 251px;
+
+background: #5376AA;
+
+
+/* Group 30 */
+
+position: absolute;
+width: 301px;
+height: 24px;
+left: 36px;
+top: 204px;
+
+
+
+/* 월 */
+
+position: absolute;
+left: 22.13%;
+right: 72.8%;
+top: 25.12%;
+bottom: 71.92%;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #363636;
+
+
+
+/* 토 */
+
+position: absolute;
+left: 84.8%;
+right: 10.13%;
+top: 25.12%;
+bottom: 71.92%;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #3269F5;
+
+
+
+/* 일 */
+
+position: absolute;
+left: 9.6%;
+right: 85.33%;
+top: 25.12%;
+bottom: 71.92%;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #FF3535;
+
+
+
+/* 금 */
+
+position: absolute;
+left: 72.27%;
+right: 22.67%;
+top: 25.12%;
+bottom: 71.92%;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #363636;
+
+
+
+/* 목 */
+
+position: absolute;
+left: 59.73%;
+right: 35.2%;
+top: 25.12%;
+bottom: 71.92%;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #363636;
+
+
+
+/* 화 */
+
+position: absolute;
+left: 34.67%;
+right: 60.27%;
+top: 25.12%;
+bottom: 71.92%;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #363636;
+
+
+
+/* 수 */
+
+position: absolute;
+left: 47.2%;
+right: 47.73%;
+top: 25.12%;
+bottom: 71.92%;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #363636;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 222px;
+top: 251px;
+
+background: #5376AA;
+
+
+/* Line 1 */
+
+position: absolute;
+width: 336px;
+height: 0px;
+left: 18px;
+top: 240.52px;
+
+border: 2px solid #EFF0F4;
+
+
+/* Line 6 */
+
+position: absolute;
+width: 336px;
+height: 0px;
+left: 18px;
+top: 581px;
+
+border: 1px solid #F4F4F4;
+
+
+/* Line 5 */
+
+position: absolute;
+width: 336px;
+height: 0px;
+left: 18px;
+top: 510px;
+
+border: 1px solid #F4F4F4;
+
+
+/* Line 4 */
+
+position: absolute;
+width: 336px;
+height: 0px;
+left: 18px;
+top: 443px;
+
+border: 1px solid #F4F4F4;
+
+
+/* Line 3 */
+
+position: absolute;
+width: 336px;
+height: 0px;
+left: 18px;
+top: 379px;
+
+border: 1px solid #F4F4F4;
+
+
+/* Group 31 */
+
+position: absolute;
+width: 244px;
+height: 19px;
+left: 87px;
+top: 253px;
+
+
+
+/* 1 */
+
+position: absolute;
+width: 7px;
+height: 19px;
+left: 87px;
+top: 253px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 2 */
+
+position: absolute;
+width: 8px;
+height: 19px;
+left: 134px;
+top: 253px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 3 */
+
+position: absolute;
+width: 9px;
+height: 19px;
+left: 181px;
+top: 253px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 5 */
+
+position: absolute;
+width: 9px;
+height: 19px;
+left: 275px;
+top: 253px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 6 */
+
+position: absolute;
+width: 9px;
+height: 19px;
+left: 322px;
+top: 253px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #8CA1B6;
+
+
+
+/* Group 23 */
+
+position: absolute;
+width: 298px;
+height: 19px;
+left: 40px;
+top: 319px;
+
+
+
+/* 8 */
+
+position: absolute;
+width: 9px;
+height: 19px;
+left: 87px;
+top: 319px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 9 */
+
+position: absolute;
+width: 9px;
+height: 19px;
+left: 134px;
+top: 319px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 10 */
+
+position: absolute;
+width: 16px;
+height: 19px;
+left: 181px;
+top: 319px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #5376AA;
+
+
+
+/* 11 */
+
+position: absolute;
+width: 14px;
+height: 19px;
+left: 228px;
+top: 319px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 12 */
+
+position: absolute;
+width: 15px;
+height: 19px;
+left: 275px;
+top: 319px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 13 */
+
+position: absolute;
+width: 16px;
+height: 19px;
+left: 322px;
+top: 319px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #8CA1B6;
+
+
+
+/* 7 */
+
+position: absolute;
+width: 8px;
+height: 19px;
+left: 40px;
+top: 319px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #8CA1B6;
+
+
+
+/* Group 26 */
+
+position: absolute;
+width: 157px;
+height: 19px;
+left: 40px;
+top: 517px;
+
+
+
+/* 29 */
+
+position: absolute;
+width: 17px;
+height: 19px;
+left: 87px;
+top: 517px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 30 */
+
+position: absolute;
+width: 18px;
+height: 19px;
+left: 134px;
+top: 517px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 31 */
+
+position: absolute;
+width: 16px;
+height: 19px;
+left: 181px;
+top: 517px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 28 */
+
+position: absolute;
+width: 17px;
+height: 19px;
+left: 40px;
+top: 517px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #8CA1B6;
+
+
+
+/* Group 25 */
+
+position: absolute;
+width: 298px;
+height: 19px;
+left: 40px;
+top: 451px;
+
+
+
+/* 22 */
+
+position: absolute;
+width: 16px;
+height: 19px;
+left: 87px;
+top: 451px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 23 */
+
+position: absolute;
+width: 17px;
+height: 19px;
+left: 134px;
+top: 451px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 24 */
+
+position: absolute;
+width: 17px;
+height: 19px;
+left: 181px;
+top: 451px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 25 */
+
+position: absolute;
+width: 16px;
+height: 19px;
+left: 228px;
+top: 451px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 26 */
+
+position: absolute;
+width: 17px;
+height: 19px;
+left: 275px;
+top: 451px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 27 */
+
+position: absolute;
+width: 16px;
+height: 19px;
+left: 322px;
+top: 451px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #8CA1B6;
+
+
+
+/* 21 */
+
+position: absolute;
+width: 15px;
+height: 19px;
+left: 40px;
+top: 451px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #8CA1B6;
+
+
+
+/* Group 24 */
+
+position: absolute;
+width: 299px;
+height: 19px;
+left: 40px;
+top: 385px;
+
+
+
+/* 15 */
+
+position: absolute;
+width: 16px;
+height: 19px;
+left: 87px;
+top: 385px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 16 */
+
+position: absolute;
+width: 16px;
+height: 19px;
+left: 134px;
+top: 385px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 17 */
+
+position: absolute;
+width: 15px;
+height: 19px;
+left: 181px;
+top: 385px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 18 */
+
+position: absolute;
+width: 16px;
+height: 19px;
+left: 228px;
+top: 385px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 19 */
+
+position: absolute;
+width: 16px;
+height: 19px;
+left: 275px;
+top: 385px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 20 */
+
+position: absolute;
+width: 17px;
+height: 19px;
+left: 322px;
+top: 385px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #8CA1B6;
+
+
+
+/* 14 */
+
+position: absolute;
+width: 16px;
+height: 19px;
+left: 40px;
+top: 385px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #8CA1B6;
+
+
+
+/* Polygon 1 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 83px;
+top: 164px;
+
+background: #DBDEEA;
+transform: rotate(-90deg);
+
+
+/* Polygon 2 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 287px;
+top: 148px;
+
+background: #DBDEEA;
+transform: rotate(90deg);
+
+
+/* Group 21 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 92%;
+bottom: 0%;
+
+
+
+/* My */
+
+position: absolute;
+left: 82.4%;
+right: 12.53%;
+top: 96.31%;
+bottom: 1.72%;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+color: #7BCDC8;
+
+
+
+/* Group 18 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 92%;
+bottom: 0%;
+
+filter: drop-shadow(0px -2px 5px rgba(216, 216, 216, 0.25));
+
+
+/* Rectangle 16 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 92%;
+bottom: 0%;
+
+background: #DDDDDD;
+border-radius: 25px 25px 0px 0px;
+
+
+/* 티끌 모아 태산 */
+
+position: absolute;
+left: 35.2%;
+right: 31.2%;
+top: 7.39%;
+bottom: 90.15%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.53%;
+right: 88.8%;
+top: 7.27%;
+bottom: 90.27%;
+
+border: 2px solid #363636;
+
+
+/* Rectangle 169 */
+
+position: absolute;
+width: 375px;
+height: 812px;
+left: 1px;
+top: 0px;
+
+background: rgba(145, 145, 145, 0.8);
+
+
+/* Rectangle 152 */
+
+position: absolute;
+left: 7.47%;
+right: 7.2%;
+top: 13.79%;
+bottom: 14.29%;
+
+background: #FFFFFF;
+box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+border-radius: 20px;
+
+
+/* 개미 - 35,000원 */
+
+position: absolute;
+width: 182px;
+height: 17px;
+left: 55px;
+top: 228px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+
+color: #000000;
+
+
+
+/* Group 40 */
+
+position: absolute;
+width: 72px;
+height: 15px;
+left: 57px;
+top: 188px;
+
+
+
+/* image 9 */
+
+position: absolute;
+width: 14px;
+height: 14px;
+left: 57px;
+top: 189px;
+
+background: url(image.png);
+
+
+/* 소비왕순 */
+
+position: absolute;
+width: 49px;
+height: 15px;
+left: 80px;
+top: 188px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 2022년 5월 4일 */
+
+.xxx{
+position: absolute;
+width: 11px;
+height: 11px;
+left: 316px;
+top: 142px;
+	
+}
+
+
+.day{
+width: 101px;
+height: 20px;
+left: 64px;
+top: 139px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 30px;
+
+color: #3DAA9D;
+}
+
+
+/* Group 41 */
+
+position: absolute;
+width: 279px;
+height: 21px;
+left: 53px;
+top: 257px;
+
+
+
+/* -25,000 */
+
+position: absolute;
+width: 49px;
+height: 15px;
+left: 53px;
+top: 260px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 식비 */
+
+position: absolute;
+width: 31px;
+height: 14px;
+left: 128px;
+top: 260px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #FF9900;
+
+
+
+/* 오랜만에 감성타코 */
+
+position: absolute;
+width: 97px;
+height: 12px;
+left: 187px;
+top: 262px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: #000000;
+
+
+
+/* image 10 */
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: 311px;
+top: 257px;
+
+background: url(image.png);
+
+
+/* Group 77 */
+
+position: absolute;
+width: 289px;
+height: 22px;
+left: 53px;
+top: 286px;
+
+
+
+/* 생활비 */
+
+position: absolute;
+width: 42px;
+height: 15px;
+left: 128px;
+top: 290px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #538DE4;
+
+
+
+/* -10,000 */
+
+position: absolute;
+width: 49px;
+height: 15px;
+left: 53px;
+top: 290px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 집 가는 길에 또 다이소 */
+
+position: absolute;
+width: 97px;
+height: 12px;
+left: 187px;
+top: 293px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: #000000;
+
+
+
+/* image 10 */
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: 311px;
+top: 287px;
+
+background: url(image.png);
+
+
+/* 1 */
+
+position: absolute;
+width: 9px;
+height: 9px;
+left: 333px;
+top: 286px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 10px;
+
+color: #000000;
+
+
+
+/* Group 71 */
+
+position: absolute;
+width: 316px;
+height: 26px;
+left: -269px;
+top: -1168px;
+
+
+
+/* home */
+
+position: absolute;
+left: -71.73%;
+right: 164.28%;
+top: -143.84%;
+bottom: 240.64%;
+
+background: url(home.png);
+
+
+/* gruop */
+
+position: absolute;
+left: -45.6%;
+right: 138.67%;
+top: -143.47%;
+bottom: 240.9%;
+
+background: url(multiple-users-silhouette.png);
+
+
+/* mypage */
+
+position: absolute;
+left: 5.6%;
+right: 87.47%;
+top: -143.84%;
+bottom: 240.64%;
+
+background: url(account.png);
+
+
+/* target (1) 1 */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: -70px;
+top: -1168px;
+
+background: url(target (1).png);
+
+
+/* Line 4 */
+
+position: absolute;
+width: 276px;
+height: 0px;
+left: 52px;
+top: 251px;
+
+border: 0.8px solid rgba(121, 204, 184, 0.44);
+
+
+/* Line 5 */
+
+position: absolute;
+width: 276px;
+height: 0px;
+left: 53px;
+top: 362px;
+
+border: 0.8px solid rgba(121, 204, 184, 0.44);
+
+
+/* Group 84 */
+
+position: absolute;
+width: 289px;
+height: 167px;
+left: 51px;
+top: 338px;
+
+
+
+/* 베짱이 - 23,000원 */
+
+position: absolute;
+width: 182px;
+height: 17px;
+left: 57px;
+top: 338px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+
+color: #000000;
+
+
+
+/* Group 73 */
+
+position: absolute;
+width: 287px;
+height: 67px;
+left: 52px;
+top: 370px;
+
+
+
+/* -8,000 */
+
+position: absolute;
+width: 49px;
+height: 15px;
+left: 52px;
+top: 376px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 식비 */
+
+position: absolute;
+width: 31px;
+height: 14px;
+left: 127px;
+top: 376px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #FF9900;
+
+
+
+/* 맥도날드서 쿼파치 먹었당! 소프트콘도 먹음  쿠폰 써서 먹었으니 야무진 소비임 */
+
+position: absolute;
+width: 109px;
+height: 59px;
+left: 186px;
+top: 378px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: #000000;
+
+
+
+/* image 10 */
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: 310px;
+top: 373px;
+
+background: url(image.png);
+
+
+/* 3 */
+
+position: absolute;
+width: 9px;
+height: 9px;
+left: 330px;
+top: 370px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 10px;
+
+color: #000000;
+
+
+
+/* Group 78 */
+
+position: absolute;
+width: 289px;
+height: 22px;
+left: 51px;
+top: 483px;
+
+
+
+/* 생활비 */
+
+position: absolute;
+width: 42px;
+height: 15px;
+left: 126px;
+top: 487px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #538DE4;
+
+
+
+/* -5,000 */
+
+position: absolute;
+width: 49px;
+height: 15px;
+left: 51px;
+top: 487px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 마트 장 봄 */
+
+position: absolute;
+width: 97px;
+height: 12px;
+left: 186px;
+top: 488px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: #000000;
+
+
+
+/* image 10 */
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: 309px;
+top: 484px;
+
+background: url(image.png);
+
+
+/* 1 */
+
+position: absolute;
+width: 9px;
+height: 9px;
+left: 331px;
+top: 483px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 10px;
+
+color: #000000;
+
+
+
+/* Group 83 */
+
+position: absolute;
+width: 279px;
+height: 21px;
+left: 51px;
+top: 437px;
+
+
+
+/* Group 79 */
+
+position: absolute;
+width: 279px;
+height: 21px;
+left: 51px;
+top: 437px;
+
+
+
+/* -10,000 */
+
+position: absolute;
+width: 49px;
+height: 15px;
+left: 51px;
+top: 440px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 교통비 */
+
+position: absolute;
+width: 42px;
+height: 15px;
+left: 126px;
+top: 440px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #3B82A1;
+
+
+
+/* 비 와서 어쩔수없이 택시탐 ㅠㅠ */
+
+position: absolute;
+width: 107px;
+height: 13px;
+left: 186px;
+top: 440px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* image 10 */
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: 309px;
+top: 437px;
+
+background: url(image.png);
+
+
+/* Polygon 3 */
+
+position: absolute;
+width: 7.98px;
+height: 7.98px;
+left: 47.03px;
+top: 152.01px;
+
+background: #BEBEBE;
+transform: rotate(-90.19deg);
+
+
+/* image 30 */
+
+position: absolute;
+width: 11px;
+height: 11px;
+left: 316px;
+top: 142px;
+
+background: url(image.png);
+
+
+/* . . . */
+
+position: absolute;
+width: 27px;
+height: 20px;
+left: 87px;
+top: 536px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+transform: rotate(89.09deg);
+
+

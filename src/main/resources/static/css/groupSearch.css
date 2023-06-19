@@ -1,0 +1,405 @@
+/* 그룹검색 페이지 */
+        body {
+           width: 375px;
+           height: 812px;
+           background: #F9F9F9;
+        }
+        /* 화면 */
+        .container {
+           position: relative;
+           width: 375px;
+           height: auto;
+         top:180px;
+         right:10px;
+         overflow:hidden;
+
+        }
+
+
+/* 헤더 박스 */
+.header {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 88.18%;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 와이파이 */
+        .wifi{
+           position: absolute;
+           left: 81.07%;
+           right: 13.6%;
+           top: 10%;
+           /* bottom: 96.31%;
+
+           background: #000000; */
+        }
+        .wifi img{
+           width:100%;
+           height:100%;
+        }
+
+        /* 배터리 */
+        .battery{
+           position: absolute;
+           left: 88%;
+           right: 6.67%;
+           top: 13%;
+           /* bottom: 96.43%;
+
+           background: #000000; */
+        }
+        .battery img{
+           width:100%;
+           height:100%;
+        }
+
+        /* 데이터 */
+        .data{
+           position: absolute;
+           left: 74.67%;
+           right: 20.53%;
+           top: 10%;
+        }
+        .data img{
+           width:100%;
+           height:100%;
+        }
+
+        /* 9:40 */
+        .time{
+           position: absolute;
+           left: 8.53%;
+           right: 78.13%;
+           top: 8%;
+           bottom: 96.8%;
+
+           font-family: 'Inter', sans-serif;
+           font-style: normal;
+           font-weight: 700;
+           font-size: 18px;
+           line-height: 22px;
+
+           color: #000000;
+        }
+
+        /* 뒤로가기 버튼 */
+        .backIcon {
+            position: absolute;
+            left: 8.53%;
+            right: 88.8%;
+            top: 55px;
+            bottom: 90.39%;
+        }
+
+        .searchLetter {
+            position: absolute;
+            width: 37px;
+            height: 24px;
+            left: 150px;
+            top: 40px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            /* identical to box height */
+
+            color: #363636;
+
+            white-space: nowrap;  /*줄바꿈X*/
+        }
+
+
+/* main-box */
+    .main {
+        position: absolute;
+        width: 375px;
+        height: 649px;
+        left: 0px;
+        top: 98px;
+    }
+
+
+    /* 검색 박스 */
+    .search-box {
+    position: absolute;
+    width: 375px;
+    height: 101px;
+    left: 0px;
+    top: 100px;
+    }
+
+    /* 검색창 rec */
+    .search {
+    position: absolute;
+    left: 8.8%;
+    right: 18.67%;
+    top: 28.93%;
+    bottom: 31.4%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(190, 190, 190, 0.25);
+    border-radius: 20px;
+    }
+
+    /* searchInput */
+    #searchInput {
+    position: absolute;
+    left: 12.53%;
+    right: 22.4%;
+    top: 30.69%;
+    bottom: 34.65%;
+
+    border: none;
+    background: #FFFFFF;
+    }
+
+    /* Hide the "x" symbol */
+    #searchInput::-webkit-search-cancel-button,
+    #searchInput::-webkit-search-decoration,
+    #searchInput::-webkit-search-results-button,
+    #searchInput::-webkit-search-results-decoration {
+      display: none;
+    }
+
+    /* 돋보기 */
+    /* image 54 */
+    .searchIcon {
+        position: absolute;
+        left: 86.13%;
+        right: 7.47%;
+        top: 37.38%;
+        bottom: 40%;
+    }
+
+/* 그룹 목록 프레임 */
+.groupList-box {
+   position: absolute;
+   width:375px;
+   left: 0%;
+   right: 0%;
+   top: 1%;
+   bottom: 0%;
+}
+
+.list{
+   position:relative;
+   display:inline-block;
+   width:408px;
+   height:62px;
+   margin:10px;
+
+}
+.list+.list{
+   margin-top:10px;
+}
+
+/* 그룹 프레임 */
+.groupBtn {
+   box-sizing: border-box;
+   width:300px;
+   height:62px;
+   margin-left:27px;
+
+   background: #EFF4F4;
+   border: 1px solid #96D6C7;
+   border-radius: 20px;
+}
+
+/* 그룹명 */
+.groupName {
+/* position: absolute;
+left: 11.55%;
+right: 47.26%;
+top: 26.94%;
+bottom: 50.16%; */
+
+   display:flex;
+   align-items: center;
+   position: absolute;
+   left: 14%;
+   right: 13.07%;
+   width:170px;
+   top: 25%;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 19px;
+
+   color: #3DAA9D;
+
+   white-space: nowrap;  /*줄바꿈X*/
+}
+
+/* 필수태그 rec */
+.groupRecTag {
+   display:flex;
+   align-items: center;
+   position: absolute;
+   left: 55%;
+   right: 13.07%;
+   width:55px;
+   height:20px;
+   top: 25%;
+   background: rgba(121, 204, 184, 0.77);
+   border-radius: 30px;
+
+   text-indent:6px;
+   font-family: 'Inter';
+   font-size: 11px;
+   font-style: normal;
+   text-align: center;
+   line-height: 16px; /* Adjust this value to move the text downward */
+   color: #FFFFFF;
+}
+
+/* 해시태그 */
+.groupExTag {
+   display:flex;
+   position: absolute;
+   left: 14%;
+   right: -2.93%;
+   top:60%;
+   width:170px;
+
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 13px;
+   line-height: 16px;
+
+   color: #FCB860;
+
+   white-space: nowrap;  /*줄바꿈X*/
+}
+
+
+/* 생성일 */
+.groupDate {
+   display:flex;
+   position: absolute;
+   left: 62%;
+   right: -2.93%;
+   top:67%;
+   width:150px;
+
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 9px;
+   line-height: 11px;
+
+   color: rgba(0, 0, 0, 0.45);
+}
+
+
+
+
+/* 모달 스타일 */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 30px; /* 둥글게 조정할 값 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+/* 가입하기 버튼*/
+.signupButton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #79CCB8;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 그룹 정보 스타일 */
+.group-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.group-name {
+    font-weight: bold;
+}
+
+.group-details-top {
+    margin-top: 10px;
+}
+
+.group-details-top span {
+    margin-right: 10px;
+}
+
+.group-requiredTag {
+    font-weight: bold;
+    color: #3DAA9D;
+}
+
+.group-members {
+    color: #000;
+}
+
+.group-leader {
+    color: #000;
+}
+
+.group-details-bottom {
+    margin-top: 15px;
+}
+
+.group-tag {
+    color: #FFAE45;
+    margin-bottom: 5px;
+}
+
+.group-description {
+    margin-top: 5px;
+}

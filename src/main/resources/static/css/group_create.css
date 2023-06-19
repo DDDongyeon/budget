@@ -1,0 +1,454 @@
+@charset "UTF-8";
+
+body {
+	width: 375px;
+	height: 812px;
+	background: #F9F9F9;
+}
+
+/* 상단네모 */
+.top-rectangle{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 88.18%;
+	
+	background: #FFFFFF;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	z-index: 2;
+}
+
+
+/* 와이파이 */
+.wifi{
+	position: absolute;
+	left: 81.07%;
+	right: 13.6%;
+	top: 10%;
+	/* bottom: 96.31%;
+
+	background: #000000; */
+}
+.wifi img{
+	width:100%;
+	height:100%;
+}
+/* 배터리 */
+.battery{
+	position: absolute;
+	left: 88%;
+	right: 6.67%;
+	top: 13%;
+	/* bottom: 96.43%;
+
+	background: #000000; */
+}
+.battery img{
+	width:100%;
+	height:100%;
+}
+/* 데이터 */
+.data{
+	position: absolute;
+	left: 74.67%;
+	right: 20.53%;
+	top: 10%;
+	/* bottom: 96.31%;
+
+	background: #000000;
+	 */
+}
+.data img{
+	width:100%;
+	height:100%;
+}
+/* 9:40 */
+.time{
+	position: absolute;
+	left: 8.53%;
+	right: 78.13%;
+	top: 8%;
+	bottom: 96.8%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #000000;
+	
+}
+
+
+/* 이전페이지로 */
+.back-page{
+	position: absolute;
+	left: auto;
+	right: 90%;
+	top: 60%;
+	background-color: transparent;
+    border: none;
+	/* bottom: 90.27%;
+
+	border: 2px solid #363636; */
+}
+.back-page img{
+	width:100%;
+	height:100%;
+}
+
+.create-group{
+	position: absolute;
+	/* left: 39.47%; */
+	right: 33%;
+	top: 43%;
+	bottom: 90.27%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #000000;
+	
+}
+
+form {
+	height:700px;
+}
+
+
+/* form 틀 */
+.register-form{
+	position: absolute;
+	left: 8%;
+	right: 6.67%;
+	top: 20.44%;
+	bottom: 17%;
+	height:480px;
+	background: #FFFFFF;
+	box-shadow: 0px 18px 60px rgba(162, 201, 196, 0.2);
+	border-radius: 20px;
+	
+}
+
+/* 생성 완료 네모 */
+.submit-rectangle{
+	position: absolute;
+	left: 5.33%;
+	right: 5.07%;
+	top: 91.75%;
+	bottom: 1.35%;
+	
+	background: #79CCB8;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	border:none;
+}
+
+/* 생성 완료 */
+.submit-rectangle-text{
+	position: absolute;
+	left: 30%;
+	right: 30%;
+	top: 30%;
+	bottom: 3.2%;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 22px;
+	line-height: 27px;
+	/* identical to box height */
+
+	color: #FFFFFF;
+	
+}
+
+/* 그룹명 틀 */
+.group-name1{
+	position: absolute;
+	width: 320px;
+	height: 66px;
+/* 	left: 56px; */
+	top: 19px;
+}
+/* 그룹 명 네모 */
+.group-name-rectangle{
+	box-sizing: border-box;
+	
+	position: absolute;
+	left: 11%;
+	right: 14.67%;
+	top: 30%;
+	width:250px;
+	height:45px;
+	bottom: 67.61%;
+	
+	background: #FFFFFF;
+	border: 0.8px solid #A2C9C4;
+	border-radius: 5px;
+	
+}
+
+/* 그룹 명 */
+.group-name-text{
+	position: absolute;
+	/* left: 16.27%; */
+	right: 74.4%;
+	top: 2%;
+	bottom: 74.01%;
+	
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	
+	color: #49AFA3;
+	
+}
+/* 명 (최대 30명) */
+.group-size-text2{
+	
+	position: absolute;
+	/* left: 40%; */
+	right: 40%;
+	top: 66%;
+	bottom: 57.02%;
+	
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 19px;
+	/* identical to box height */
+	
+	color: #A2C9C4;
+}
+
+
+/* 그룹인원 틀 */
+.group-size{
+	
+	position: absolute;
+	width: 320px;
+	height: 80px;
+	/* left: 61px; */
+	top: 90px;
+}
+
+
+
+/* 그룹인원 네모 */
+.group-size-rectangle{
+	
+	box-sizing: border-box;
+	
+	position: absolute;
+	left: 11%;
+	right: 62.4%;
+	top: 30%;
+	height:50px;
+	bottom: 57.02%;
+	
+	background: #FFFFFF;
+	border: 0.8px solid #A2C9C4;
+	border-radius: 5px;
+}
+
+
+/* 그룹 인원 */
+.group-size-text{
+	
+	position: absolute;
+	/* left: 17.6%; */
+	right: 70%;
+	top: 5%;
+	bottom: 63.79%;
+	
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	
+	color: #49AFA3;
+}
+
+.tag-button {
+     display: inline-block;
+     padding: 3px 6px;
+     margin-right: 5px;
+     /* background-color: #ccc; */
+     cursor: pointer;
+     margin-top:5px;
+     background: rgba(121, 204, 184, 0.77);
+	border-radius: 30px;
+        }
+.tags{
+	position: relative;
+    right: -40px;
+	
+}
+
+.tag1{
+	
+	position: absolute;
+	width: 320px;
+	height: 80px;
+	/* left: 61px; */
+	top: 170px;
+}
+/* 해시태그 선택 */
+.tag-text{
+	
+	position: absolute;
+	width: 86px;
+	height: 17px;
+	left: 45px;
+	top: 5px;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	
+	color: #60B9AF;
+}
+
+.tags-text{
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+
+	color: #FFFFFF;
+	
+}
+
+
+/* 해시태그 틀 */
+.tag2{
+	position: absolute;
+	width: 320px;
+	height: 70px;
+	/* left: 56px; */
+	top: 230px;
+	
+}
+
+
+
+/* 해시태그 네모 */
+.tag2-rectangle{
+	
+	box-sizing: border-box;
+	
+	position: absolute;
+	left: 11%;
+	right: 14.67%;
+	height:45px;
+	width:250px;
+	top: 40%;
+	bottom: 21.55%;
+	
+	background: #FFFFFF;
+	border: 0.8px solid #A2C9C4;
+	border-radius: 5px;
+}
+
+/* 해시태그 */
+.tag2-text{
+	
+	position: absolute;
+	/* left: 16.27%; */
+	right: 70%;
+	top: 7%;
+	bottom: 27.83%;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	
+	color: #49AFA3;
+}
+
+
+/* 그룹 설명 틀 */
+.group-comment{
+	
+	position: absolute;
+	width: 320px;
+	height: 117px;
+	/* left: 57px; */
+	top: 320px;
+}
+
+/* 그룹 설명 네모 */
+.group-comment-rectangle{
+	
+	box-sizing: border-box;
+	
+	position: absolute;
+	left: 11%;
+	right: 14.4%;
+	height:100px;
+	width:250px;
+	top: 25%;
+	bottom: 41.01%;
+	
+	background: rgba(255, 255, 255, 0.4);
+	border: 0.8px solid #A2C9C4;
+	border-radius: 5px;
+}
+
+
+/* 그룹 설명 */
+.group-comment-text{
+	
+	position: absolute;
+	/* left: 16.53%; */
+	right: 70%;
+	top: 1%;
+	bottom: 53.69%;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	
+	color: #49AFA3;
+}
+
+
+
+
+
+
+
+/* 그룹 이름을 입력해주세요. */
+
+position: absolute;
+left: 19.2%;
+right: 39.73%;
+top: 28.45%;
+bottom: 69.33%;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+color: #CECECE;

@@ -1,0 +1,728 @@
+@charset "UTF-8";
+
+body {
+	width: 375px;
+	height: 812px;
+	background: linear-gradient(180deg, #FFF5F2 0%, #E9F5F4 100%);
+}
+/* 챌린지 리스트 */
+.container{
+	position: relative;
+	width: 375px;
+	height: auto;
+	/* bottom: 0.4%; */
+	top:11%;
+    right: 2.1%;
+    overflow:hidden;
+	/* background: linear-gradient(180deg, #FFF5F2 0%, #E9F5F4 100%); */
+}
+
+/* 상단 네모 */
+.top-rectangle{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 88.18%;
+
+	background: #FFFFFF;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 와이파이 */
+.wifi{
+	position: absolute;
+	left: 81.07%;
+	right: 13.6%;
+	top: 8%;
+	/* bottom: 96.31%;
+
+	background: #000000; */
+}
+.wifi img{
+	width:100%;
+	height:100%;
+}
+/* 배터리 */
+.battery{
+	position: absolute;
+	left: 88%;
+	right: 6.67%;
+	top: 8%;
+	/* bottom: 96.43%;
+
+	background: #000000; */
+}
+.battery img{
+	width:100%;
+	height:100%;
+}
+/* 데이터 */
+.data{
+	position: absolute;
+	left: 74.67%;
+	right: 20.53%;
+	top: 8%;
+	/* bottom: 96.31%;
+
+	background: #000000;
+	 */
+}
+.data img{
+	width:100%;
+	height:100%;
+}
+/* 9:40 */
+.time{
+	position: absolute;
+	left: 8.53%;
+	right: 78.13%;
+	top: 8%;
+	bottom: 96.8%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #000000;
+	
+}
+
+
+/* 마이 버찌 */
+.my-budget{
+	position: absolute;
+	/* left: 39.47%; */
+	right: 37.87%;
+	top: 43%;
+	bottom: 90.27%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #000000;
+	
+}
+
+/* hamburger 1 */
+.hamburger{
+	position: absolute;
+	/* width: 20px;
+	height: 20px; */
+	/* left: 27px; */
+	left: auto;
+	right: 90%;
+	top: 60%;
+}
+.hamburger img{
+	width:100%;
+	height:100%;
+}
+
+.budget-list{
+	position:absolute;
+	/* height: auto; */
+	/* min-height:100px; */
+    width: 375px;
+ 	top:-1%;
+    bottom: 145px;
+	
+}
+/* Line 14 */
+
+.line{
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	left: -0.02px;
+	top: 75px; 
+	botton:0;
+	border: 0.5px solid #CCCCCC;
+}
+
+/* 2주동안 10만원 쓰기 챌린지! */
+.budget-name{
+	display:flex;
+	align-items: center;
+	position: absolute;
+	left: 15.73%;
+	right: 13.07%;
+	top: 30%; 
+	/* bottom: 81.93%; */
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	
+	color: #000000;
+}
+
+
+
+/* 목표 금액: 10만원 남은 금액: 5만원 남은 기간: 3일 */
+.budget-detail{
+	display:flex;
+	position: absolute;
+	left: 8%;
+	right: -2.93%;
+	top:75%;
+	/* bottom: 72.78%; */
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 18px;
+	
+	color: #8CA1B6;
+}
+.budget-detail.line{
+	margin-botton:10px;
+}
+.list{
+	position:relative;
+	display:inline-block;
+	width:408px;
+	height:62px;
+	margin-botton:10px;
+
+}
+
+.button1{
+	background-color: transparent;
+    border: none;
+    width:408px;
+	height:62px;
+}
+.button2{
+	position: absolute;
+	width: 72px;
+	height: 69px;
+    left: 277px;
+    top: 650px;
+	background-color: transparent;
+    border: none;
+   
+}
+
+.list+.list{
+	margin-top:10px;
+}
+
+/* 체리 */
+.cherry img{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 35px;
+    top: 17px;
+}
+
+
+/* 하단바 */
+
+position: absolute;
+width: 375px;
+height: 65px;
+left: 0px;
+top: 747px;
+
+
+
+/* 하단바 네모 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 92%;
+bottom: 0%;
+
+background: #FFFFFF;
+border-radius: 25px 25px 0px 0px;
+
+
+/* 하단 바 개인 페이지 홈 */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 30px;
+top: 767px;
+
+background: url(home.png);
+
+
+/* 하단 바 그룹페이지 */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 99px;
+top: 767px;
+
+background: url(multiple-users-silhouette.png);
+
+
+/* 하단 바 소비등록 */
+
+position: absolute;
+width: 26px;
+height: 26.9px;
+left: 175px;
+top: 767px;
+
+background: url(plus.png);
+
+
+/* 하단 바 마이페이지 */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 316px;
+top: 767px;
+
+background: url(account.png);
+
+
+/* 하단 바 체리 */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 249px;
+top: 767px;
+
+background: url(image.png);
+
+
+/* 리스트 목록 글씨 체리 */
+
+position: absolute;
+width: 356px;
+height: 102px;
+left: 30px;
+top: 119px;
+
+
+
+
+
+/* 한달동안 60만원만 써보자 ~ */
+
+position: absolute;
+width: 299px;
+height: 22px;
+left: 51px;
+top: 209px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+
+/* 목표 금액: 60만원 남은 금액: 40만원 남은 기간: 15일 */
+
+position: absolute;
+width: 408px;
+height: 32px;
+left: 27px;
+top: 239px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #A2B5C9;
+
+
+
+
+
+/* Line 15 */
+
+position: absolute;
+width: 375.05px;
+height: 0px;
+left: -1px;
+top: 282px;
+
+border: 1px solid #CCCCCC;
+@charset "UTF-8";
+
+body {
+	width: 375px;
+	height: 812px;
+	background: linear-gradient(180deg, #FFF5F2 0%, #E9F5F4 100%);
+}
+/* 챌린지 리스트 */
+.container{
+	position: relative;
+	width: 375px;
+	height: auto;
+	/* bottom: 0.4%; */
+	top:11%;
+    right: 2.1%;
+    overflow:hidden;
+	/* background: linear-gradient(180deg, #FFF5F2 0%, #E9F5F4 100%); */
+}
+
+/* 상단 네모 */
+.top-rectangle{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 88.18%;
+
+	background: #FFFFFF;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 와이파이 */
+.wifi{
+	position: absolute;
+	left: 81.07%;
+	right: 13.6%;
+	top: 8%;
+	/* bottom: 96.31%;
+
+	background: #000000; */
+}
+.wifi img{
+	width:100%;
+	height:100%;
+}
+/* 배터리 */
+.battery{
+	position: absolute;
+	left: 88%;
+	right: 6.67%;
+	top: 8%;
+	/* bottom: 96.43%;
+
+	background: #000000; */
+}
+.battery img{
+	width:100%;
+	height:100%;
+}
+/* 데이터 */
+.data{
+	position: absolute;
+	left: 74.67%;
+	right: 20.53%;
+	top: 8%;
+	/* bottom: 96.31%;
+
+	background: #000000;
+	 */
+}
+.data img{
+	width:100%;
+	height:100%;
+}
+/* 9:40 */
+.time{
+	position: absolute;
+	left: 8.53%;
+	right: 78.13%;
+	top: 8%;
+	bottom: 96.8%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #000000;
+	
+}
+
+
+/* 마이 버찌 */
+.my-budget{
+	position: absolute;
+	/* left: 39.47%; */
+	right: 37.87%;
+	top: 43%;
+	bottom: 90.27%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #000000;
+	
+}
+
+/* hamburger 1 */
+.hamburger{
+	position: absolute;
+	/* width: 20px;
+	height: 20px; */
+	/* left: 27px; */
+	left: auto;
+	right: 90%;
+	top: 60%;
+}
+.hamburger img{
+	width:100%;
+	height:100%;
+}
+
+.budget-list{
+	position:absolute;
+	/* height: auto; */
+	/* min-height:100px; */
+    width: 375px;
+ 	top:-1%;
+    bottom: 145px;
+	
+}
+/* Line 14 */
+
+.line{
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	left: -0.02px;
+	top: 75px; 
+	botton:0;
+	border: 0.5px solid #CCCCCC;
+}
+
+/* 2주동안 10만원 쓰기 챌린지! */
+.budget-name{
+	display:flex;
+	align-items: center;
+	position: absolute;
+	left: 15.73%;
+	right: 13.07%;
+	top: 30%; 
+	/* bottom: 81.93%; */
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	
+	color: #000000;
+}
+
+
+
+/* 목표 금액: 10만원 남은 금액: 5만원 남은 기간: 3일 */
+.budget-detail{
+	display:flex;
+	position: absolute;
+	left: 8%;
+	right: -2.93%;
+	top:75%;
+	/* bottom: 72.78%; */
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 18px;
+	
+	color: #8CA1B6;
+}
+.budget-detail.line{
+	margin-botton:10px;
+}
+.list{
+	position:relative;
+	display:inline-block;
+	width:408px;
+	height:62px;
+	margin-botton:10px;
+
+}
+
+.button1{
+	background-color: transparent;
+    border: none;
+    width:408px;
+	height:62px;
+}
+.button2{
+	position: absolute;
+	width: 72px;
+	height: 69px;
+    left: 277px;
+    top: 650px;
+	background-color: transparent;
+    border: none;
+   
+}
+
+.list+.list{
+	margin-top:10px;
+}
+
+/* 체리 */
+.cherry img{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 35px;
+    top: 17px;
+}
+
+
+/* 하단바 */
+
+position: absolute;
+width: 375px;
+height: 65px;
+left: 0px;
+top: 747px;
+
+
+
+/* 하단바 네모 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 92%;
+bottom: 0%;
+
+background: #FFFFFF;
+border-radius: 25px 25px 0px 0px;
+
+
+/* 하단 바 개인 페이지 홈 */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 30px;
+top: 767px;
+
+background: url(home.png);
+
+
+/* 하단 바 그룹페이지 */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 99px;
+top: 767px;
+
+background: url(multiple-users-silhouette.png);
+
+
+/* 하단 바 소비등록 */
+
+position: absolute;
+width: 26px;
+height: 26.9px;
+left: 175px;
+top: 767px;
+
+background: url(plus.png);
+
+
+/* 하단 바 마이페이지 */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 316px;
+top: 767px;
+
+background: url(account.png);
+
+
+/* 하단 바 체리 */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 249px;
+top: 767px;
+
+background: url(image.png);
+
+
+/* 리스트 목록 글씨 체리 */
+
+position: absolute;
+width: 356px;
+height: 102px;
+left: 30px;
+top: 119px;
+
+
+
+
+
+/* 한달동안 60만원만 써보자 ~ */
+
+position: absolute;
+width: 299px;
+height: 22px;
+left: 51px;
+top: 209px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+
+/* 목표 금액: 60만원 남은 금액: 40만원 남은 기간: 15일 */
+
+position: absolute;
+width: 408px;
+height: 32px;
+left: 27px;
+top: 239px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #A2B5C9;
+
+
+
+
+
+/* Line 15 */
+
+position: absolute;
+width: 375.05px;
+height: 0px;
+left: -1px;
+top: 282px;
+
+border: 1px solid #CCCCCC;

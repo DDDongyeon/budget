@@ -1,0 +1,1074 @@
+﻿nt-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	width: 375px;
+	height: 812px;
+	background: #F5F5F5;
+	width:95%;
+}
+
+/* 상단네모 */
+.top-rectangle{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 88.18%;
+	
+	background: #FFFFFF;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	z-index: 2;
+}
+
+
+/* 와이파이 */
+.wifi{
+	position: absolute;
+	left: 81.07%;
+	right: 13.6%;
+	top: 8%;
+	/* bottom: 96.31%;
+
+	background: #000000; */
+}
+.wifi img{
+	width:100%;
+	height:100%;
+}
+/* 배터리 */
+.battery{
+	position: absolute;
+	left: 88%;
+	right: 6.67%;
+	top: 8%;
+	/* bottom: 96.43%;
+
+	background: #000000; */
+}
+.battery img{
+	width:100%;
+	height:100%;
+}
+/* 데이터 */
+.data{
+	position: absolute;
+	left: 74.67%;
+	right: 20.53%;
+	top: 8%;
+	/* bottom: 96.31%;
+
+	background: #000000;
+	 */
+}
+.data img{
+	width:100%;
+	height:100%;
+}
+/* 9:40 */
+.time{
+	position: absolute;
+	left: 8.53%;
+	right: 78.13%;
+	top: 8%;
+	bottom: 96.8%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #000000;
+	
+}
+
+.close{
+	position: absolute;
+width: 11px;
+height: 11px;
+left: 316px;
+top: 142px;
+}
+
+
+/* 이전페이지로 */
+.back-page{
+	position: absolute;
+	left: auto;
+	right: 90%;
+	top: 60%;
+	background-color: transparent;
+    border: none;
+	/* bottom: 90.27%;
+
+	border: 2px solid #363636; */
+}
+.back-page img{
+	width:100%;
+	height:100%;
+}
+
+.my-budget{
+	position: absolute;
+	/* left: 39.47%; */
+	/*right: calc(37.87% - 25px);*/
+	left: 50%;
+    transform: translateX(-50%);
+	top: 43%;
+	bottom: 90.27%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #60B8AE;
+
+text-align: center;
+}
+
+.name{
+	position: absolute;
+left: 24.27%;
+right: 20.27%;
+top: 15.89%;
+bottom: 82.14%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.goal{
+	position: absolute;
+width: 198px;
+height: 18px;
+left: 39px;
+top: 177px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+}
+
+.remain{
+	position: absolute;
+width: 198px;
+height: 18px;
+left: 247px;
+top: 177px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+	
+}
+.line{
+position: absolute;
+width: 319px;
+height: 0px;
+left: 28px;
+top: 204.48px;
+
+border: 1.5px solid rgba(121, 204, 184, 0.8);
+}
+
+.box-container {
+  position: relative;
+  width: 100%; /* Adjust the width as needed */
+}
+
+.box {
+	margin-left: 17px;
+  position: relative;
+  width: 319px;
+  height: 72px;
+  margin-bottom: 10px; /* Adjust the spacing between boxes as needed */
+  background: rgba(217, 217, 217, 0.31);
+  border-radius: 30px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: flex-start;
+}
+
+.member{
+	position:relative;
+width: 62px;
+height: 30px;
+
+left: 40px;
+top: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+.membercs{
+	position:relative;
+width: 100px;
+height: 30px;
+
+
+left: 100px;
+top: 25px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+.line1{
+	position: absolute;
+width: 319px;
+height: 0px;
+left: 28px;
+top: 204.48px;
+
+border: 1.5px solid rgba(121, 204, 184, 0.8);
+}
+
+.img{
+	position:relative;
+height: 30px;
+
+left: 22px;
+top: 21px;
+
+
+color: #000000;
+}
+
+.banner {
+    /* top: calc(14.41% + 5px); */
+    box-sizing: border-box;
+    position: absolute;
+    left: 27px;
+    right: 6.47%;
+    top: 120px;
+    bottom: 80.79%;
+    background: #FEFEFE;
+    border: 1px solid #79CCB8;
+    box-shadow: 0px 18px 60px rgba(112, 144, 176, 0.2);
+    border-radius: 10px;
+    height: 39px;
+    width: 319px;
+}
+.banner-img {
+    position: absolute;
+    left: 20.75px;
+    top: 5px;
+}
+
+
+.name {
+    position: absolute;
+    left: 20.27%;
+    right: 20.27%;
+    top: 28.89%;
+    bottom: 82.14%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #000000;
+}
+﻿
+﻿
+
+
+
+/* 그룹 미션 페이지 */
+
+position: relative;
+width: 375px;
+height: 812px;
+
+background: #F9F9F9;
+
+
+/* Rectangle 17 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 88.18%;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+
+/* Vector */
+
+position: absolute;
+left: 81.07%;
+right: 13.6%;
+top: 1.97%;
+bottom: 96.31%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 88%;
+right: 6.67%;
+top: 2.22%;
+bottom: 96.43%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 74.67%;
+right: 20.53%;
+top: 1.72%;
+bottom: 96.31%;
+
+background: #000000;
+
+
+/* 9:40 */
+
+position: absolute;
+left: 8.53%;
+right: 78.13%;
+top: 1.35%;
+bottom: 96.8%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 7.2%;
+right: 90.13%;
+top: 7.27%;
+bottom: 90.27%;
+
+border: 2px solid #363636;
+
+
+/* 티끌 모아 태산 */
+
+position: absolute;
+left: 33.33%;
+right: 33.07%;
+top: 7.27%;
+bottom: 90.27%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #60B8AE;
+
+
+
+/* Group 107 */
+
+position: absolute;
+width: 375px;
+height: 65px;
+left: -4px;
+top: 745px;
+
+
+
+/* Group 103 */
+
+position: absolute;
+left: -1.07%;
+right: 1.07%;
+top: 91.75%;
+bottom: 0.25%;
+
+
+
+/* Group 18 */
+
+position: absolute;
+left: -1.07%;
+right: 1.07%;
+top: 91.75%;
+bottom: 0.25%;
+
+filter: drop-shadow(0px -2px 5px rgba(216, 216, 216, 0.25));
+
+
+/* Rectangle 16 */
+
+position: absolute;
+left: -1.07%;
+right: 1.07%;
+top: 91.75%;
+bottom: 0.25%;
+
+background: #FFFFFF;
+border-radius: 25px 25px 0px 0px;
+
+
+/* plus 2 */
+
+position: absolute;
+left: 45.6%;
+right: 47.47%;
+top: 94.21%;
+bottom: 2.48%;
+
+background: url(plus.png);
+
+
+/* account 2 */
+
+position: absolute;
+left: 83.2%;
+right: 9.87%;
+top: 94.21%;
+bottom: 2.59%;
+
+background: url(account.png);
+
+
+/* Group 104 */
+
+position: absolute;
+left: 64.53%;
+right: 28.8%;
+top: 93.97%;
+bottom: 2.71%;
+
+
+
+/* Mask group */
+
+position: absolute;
+left: 64.53%;
+right: 28.8%;
+top: 93.97%;
+bottom: 2.71%;
+
+
+
+/* image 38 */
+
+position: absolute;
+left: 64.53%;
+right: 28.8%;
+top: 93.97%;
+bottom: 2.71%;
+
+background: url(image.png);
+
+
+/* Rectangle 186 */
+
+position: absolute;
+left: 64.53%;
+right: 26.58%;
+top: 93.97%;
+bottom: 1.6%;
+
+background: #CCCCCC;
+
+
+/* Mask group */
+
+position: absolute;
+left: 7.47%;
+right: 85.6%;
+top: 94.21%;
+bottom: 2.59%;
+
+
+
+/* target 1 */
+
+position: absolute;
+left: 7.47%;
+right: 85.6%;
+top: 94.21%;
+bottom: 2.59%;
+
+background: url(home.png);
+
+
+/* Rectangle 187 */
+
+position: absolute;
+left: 7.47%;
+right: 83.47%;
+top: 93.6%;
+bottom: 1.85%;
+
+background: #CCCCCC;
+
+
+/* Group 106 */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 98px;
+top: 766px;
+
+
+
+/* multiple-users-silhouette 2 */
+
+position: absolute;
+left: 26.13%;
+right: 66.93%;
+top: 94.33%;
+bottom: 2.46%;
+
+background: url(multiple-users-silhouette.png);
+
+
+/* Rectangle 188 */
+
+position: absolute;
+width: 34px;
+height: 37px;
+left: 98px;
+top: 760px;
+
+background: #79CCB8;
+
+
+/* Group 123 */
+
+position: absolute;
+width: 319px;
+height: 39px;
+left: 28px;
+top: 117px;
+
+
+
+/* Group 93 */
+
+position: absolute;
+width: 319px;
+height: 39px;
+left: 28px;
+top: 117px;
+
+
+
+/* Rectangle 19 */
+.box{
+box-sizing: border-box;
+
+left: 7.47%;
+right: 7.47%;
+top: 14.41%;
+bottom: 80.79%;
+
+background: #FEFEFE;
+border: 1px solid #79CCB8;
+box-shadow: 0px 18px 60px rgba(112, 144, 176, 0.2);
+border-radius: 10px;
+
+}
+/* 5월 첫째주 소비액 10만원 넘기지 않기 */
+
+position: absolute;
+left: 24.27%;
+right: 20.27%;
+top: 15.89%;
+bottom: 82.14%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Group 114 */
+
+position: absolute;
+width: 25px;
+height: 25px;
+left: 48px;
+top: 124px;
+
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* image 21 */
+
+position: absolute;
+left: 12.8%;
+right: 80.53%;
+top: 15.27%;
+bottom: 81.65%;
+
+background: url(image.png);
+
+
+/* 스크린샷 2023-05-09 오후 9.44 2 */
+
+position: absolute;
+width: 38.07px;
+height: 35.8px;
+left: 41.75px;
+top: 118.32px;
+
+background: url(스크린샷 2023-05-09 오후 9.44.png);
+
+
+/* 목표 금액 : 10,0000원 */
+
+position: absolute;
+width: 198px;
+height: 18px;
+left: 39px;
+top: 177px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* 남은 날짜 : 3일 */
+
+position: absolute;
+width: 198px;
+height: 18px;
+left: 247px;
+top: 177px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Line 5 */
+
+position: absolute;
+width: 319px;
+height: 0px;
+left: 28px;
+top: 204.48px;
+
+border: 1.5px solid rgba(121, 204, 184, 0.8);
+
+
+/* Group 124 */
+
+position: absolute;
+width: 319px;
+height: 72px;
+left: 28px;
+top: 225px;
+
+
+
+/* Rectangle 195 */
+
+position: absolute;
+width: 319px;
+height: 72px;
+left: 28px;
+top: calc(50% - 72px/2 - 145px);
+
+background: rgba(217, 217, 217, 0.31);
+border-radius: 30px;
+
+
+/* 동동 */
+
+position: absolute;
+width: 62px;
+height: 30px;
+left: 101px;
+top: 249px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* 30,000원 */
+
+position: absolute;
+width: 88px;
+height: 30px;
+left: 239px;
+top: 249px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* Group 110 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 48px;
+top: 245px;
+
+
+
+/* image 41 */
+
+position: absolute;
+width: 23px;
+height: 23px;
+left: 53px;
+top: 249px;
+
+background: url(image.png);
+
+
+/* Ellipse 9 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 48px;
+top: 245px;
+
+background: rgba(82, 149, 133, 0.13);
+
+
+/* Group 125 */
+
+position: absolute;
+width: 319px;
+height: 72px;
+left: 28px;
+top: 318px;
+
+
+
+/* Rectangle 195 */
+
+position: absolute;
+width: 319px;
+height: 72px;
+left: 28px;
+top: calc(50% - 72px/2 - 52px);
+
+background: rgba(217, 217, 217, 0.31);
+border-radius: 30px;
+
+
+/* 밍주 */
+
+position: absolute;
+width: 62px;
+height: 30px;
+left: 101px;
+top: 342px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* 50,000원 */
+
+position: absolute;
+width: 88px;
+height: 30px;
+left: 239px;
+top: 342px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* Group 110 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 48px;
+top: 338px;
+
+
+
+/* image 41 */
+
+position: absolute;
+width: 23px;
+height: 23px;
+left: 53px;
+top: 342px;
+
+background: url(image.png);
+
+
+/* Ellipse 9 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 48px;
+top: 338px;
+
+background: rgba(82, 149, 133, 0.13);
+
+
+/* Group 126 */
+
+position: absolute;
+width: 319px;
+height: 72px;
+left: 28px;
+top: 411px;
+
+
+
+/* Rectangle 195 */
+
+position: absolute;
+width: 319px;
+height: 72px;
+left: 28px;
+top: calc(50% - 72px/2 + 41px);
+
+background: rgba(217, 217, 217, 0.31);
+border-radius: 30px;
+
+
+/* 성욱스 */
+
+position: absolute;
+width: 62px;
+height: 30px;
+left: 101px;
+top: 435px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* 40,000원 */
+
+position: absolute;
+width: 88px;
+height: 30px;
+left: 239px;
+top: 435px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* Group 110 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 48px;
+top: 431px;
+
+
+
+/* image 41 */
+
+position: absolute;
+width: 23px;
+height: 23px;
+left: 53px;
+top: 435px;
+
+background: url(image.png);
+
+
+/* Ellipse 9 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 48px;
+top: 431px;
+
+background: rgba(82, 149, 133, 0.13);
+
+
+/* Group 127 */
+
+position: absolute;
+width: 319px;
+height: 72px;
+left: 28px;
+top: 504px;
+
+
+
+/* Rectangle 195 */
+
+position: absolute;
+width: 319px;
+height: 72px;
+left: 28px;
+top: calc(50% - 72px/2 + 134px);
+
+background: rgba(217, 217, 217, 0.31);
+border-radius: 30px;
+
+
+/* 택택 */
+
+position: absolute;
+width: 62px;
+height: 30px;
+left: 101px;
+top: 528px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* 80,000원 */
+
+position: absolute;
+width: 88px;
+height: 30px;
+left: 239px;
+top: 528px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* Group 110 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 48px;
+top: 524px;
+
+
+
+/* image 41 */
+
+position: absolute;
+width: 23px;
+height: 23px;
+left: 53px;
+top: 528px;
+
+background: url(image.png);
+
+
+/* Ellipse 9 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 48px;
+top: 524px;
+
+background: rgba(82, 149, 133, 0.13);
